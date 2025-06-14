@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube频道管理器</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- 左侧分类栏 -->
+        <div class="sidebar">
+            <div class="sidebar-header">
+                <h2>分类</h2>
+                <div class="sidebar-actions">
+                    <button id="importDataBtn" class="btn-import" title="导入数据">
+                        <i class="fas fa-file-import"></i>
+                    </button>
+                    <button id="exportDataBtn" class="btn-export" title="导出数据">
+                        <i class="fas fa-file-export"></i>
+                    </button>
+                    <button id="addCategoryBtn" class="btn-add" title="添加分类">
+                        <i class="fas fa-plus"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="category-list" id="categoryList">
+                <!-- 分类将在这里加载 -->
+            </div>
+            <div class="sidebar-footer">
+                <button id="clearDataBtn" class="btn-clear" title="清除所有数据">
+                    <i class="fas fa-trash-alt"></i> 清除所有数据
+                </button>
+            </div>
+        </div>
+
+        <!-- 右侧主内容区域 -->
+        <div class="main-content">
+            <div class="main-header">
+                <h1 id="currentCategoryName">全部频道</h1>
+                <div class="header-actions">
+                    <div class="search-container">
+                        <input type="text" id="searchInput" placeholder="搜索频道名称或标签...">
+                        <button id="searchBtn" class="btn-search">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                    <button id="addChannelBtn" class="btn-primary">
+                        <i class="fas fa-plus"></i> 添加频道
+                    </button>
+                </div>
+            </div>
+            <div class="channel-grid" id="channelGrid">
+                <!-- 频道将在这里加载 -->
+            </div>
+        </div>
+    </div>
+
+    <!-- 添加分类弹窗 -->
+    <div id="categoryModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2 id="categoryModalTitle">添加分类</h2>
+            <form id="categoryForm">
+                <input type="hidden" id="categoryId">
+                <div class="form-group">
+                    <label for="categoryName">分类名称</label>
+                    <input type="text" id="categoryName" required>
+                </div>
+                <div class="form-actions">
+                    <button type="submit" class="btn-primary">保存</button>
+                    <button type="button" class="btn-secondary close-btn">取消</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- 添加频道弹窗 -->
+    <div id="channelModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2 id="channelModalTitle">添加频道</h2>
+            <form id="channelForm">
+                <input type="hidden" id="channelId">
+                <div class="form-group">
+                    <label for="channelUrl">YouTube频道链接</label>
+                    <input type="text" id="channelUrl" placeholder="https://www.youtube.com/channel/..." required>
+                </div>
+                <div class="form-group">
+                    <label for="channelName">频道名称</label>
+                    <input type="text" id="channelName" placeholder="频道名称" required>
+                </div>
+                <div class="form-group">
+                    <label for="channelSubscribers">订阅者数量</label>
+                    <input type="number" id="channelSubscribers" placeholder="例如: 1000000" min="0">
+                    <span class="input-hint">留空将自动生成随机数据，或输入精确订阅数</span>
+                </div>
+                <div class="form-group">
+                    <label for="channelCategory">分类</label>
+                    <select id="channelCategory" required>
+                        <!-- 分类将在这里加载 -->
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="channelTags">标签（使用逗号分隔）</label>
+                    <input type="text" id="channelTags" placeholder="科技, 编程, 教程">
+                </div>
+                <div class="form-actions">
+                    <button type="submit" class="btn-primary">保存</button>
+                    <button type="button" class="btn-secondary close-btn">取消</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- 导入数据弹窗 -->
+    <div id="importModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>导入数据</h2>
+            <div class="import-instructions">
+                <p>将JSON格式的频道和分类数据粘贴到下方文本框中。</p>
+                <p>格式要求：<code>{"categories": [...], "channels": [...]}</code></p>
+            </div>
+            <div class="form-group">
+                <label for="importMode">导入模式</label>
+                <select id="importMode">
+                    <option value="smart" selected>智能模式 - 检测重复项并更新</option>
+                    <option value="append">追加模式 - 生成新ID并添加所有数据</option>
+                    <option value="update">更新模式 - 优先使用新数据更新已有项</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="jsonInput">JSON数据</label>
+                <textarea id="jsonInput" rows="10" placeholder='{"categories":[{"id":"category_1","name":"分类名称","order":1}],"channels":[{"id":"channel_1","youtubeId":"UC1234","name":"频道名称","subscriberCount":1000,"thumbnailUrl":"https://...","categoryId":"category_1","url":"https://www.youtube.com/channel/..."}]}'></textarea>
+            </div>
+            <div class="form-actions">
+                <button id="importBtn" class="btn-primary">导入</button>
+                <button type="button" class="btn-secondary close-btn">取消</button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- 导出数据弹窗 -->
+    <div id="exportModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>导出数据</h2>
+            <div class="export-instructions">
+                <p>以下是当前的所有分类和频道数据，您可以复制保存。</p>
+                <div class="export-actions">
+                    <button id="copyJsonBtn" class="btn-secondary btn-small">
+                        <i class="fas fa-copy"></i> 复制
+                    </button>
+                    <button id="downloadJsonBtn" class="btn-secondary btn-small">
+                        <i class="fas fa-download"></i> 下载
+                    </button>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="exportJsonData">JSON数据</label>
+                <textarea id="exportJsonData" rows="12" readonly></textarea>
+            </div>
+            <div class="form-actions">
+                <button type="button" class="btn-secondary close-btn">关闭</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- 右键菜单 -->
+    <div id="categoryContextMenu" class="context-menu">
+        <ul>
+            <li data-action="edit"><i class="fas fa-edit"></i> 编辑</li>
+            <li data-action="delete"><i class="fas fa-trash"></i> 删除</li>
+        </ul>
+    </div>
+    
+    <div id="channelContextMenu" class="context-menu">
+        <ul>
+            <li data-action="edit"><i class="fas fa-edit"></i> 编辑</li>
+            <li data-action="move"><i class="fas fa-exchange-alt"></i> 移动至</li>
+            <li data-action="delete"><i class="fas fa-trash"></i> 删除</li>
+        </ul>
+    </div>
+
+    <!-- 确认对话框 -->
+    <div id="confirmDialog" class="modal">
+        <div class="modal-content">
+            <h2>确认操作</h2>
+            <p id="confirmMessage"></p>
+            <div class="form-actions">
+                <button id="confirmYes" class="btn-danger">是</button>
+                <button id="confirmNo" class="btn-secondary">否</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- 通知提示 -->
+    <div id="notification" class="notification">
+        <div class="notification-content">
+            <i class="notification-icon"></i>
+            <span id="notificationMessage"></span>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html> 

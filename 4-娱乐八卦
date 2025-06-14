@@ -1,0 +1,151 @@
+{
+  "categories": [
+    {
+      "id": "entertainment_gossip",
+      "name": "娱乐八卦",
+      "order": 10
+    }
+  ],
+  "channels": [
+    {
+      "id": "channel_jiangfeng",
+      "name": "江峰时刻",
+      "url": "https://www.youtube.com/@JiangFengTimes",
+      "youtubeId": "JiangFengTimes",
+      "subscriberCount": 1280000,
+      "thumbnailUrl": "https://picsum.photos/seed/jiangfeng/64/64",
+      "categoryId": "entertainment_gossip",
+      "customTags": ["时事要闻"]
+    },
+    {
+      "id": "channel_wenzhao",
+      "name": "文昭談古論今",
+      "url": "https://www.youtube.com/@wenzhaoofficial",
+      "youtubeId": "wenzhaoofficial",
+      "subscriberCount": 1590000,
+      "thumbnailUrl": "https://picsum.photos/seed/wenzhao/64/64",
+      "categoryId": "entertainment_gossip",
+      "customTags": ["时事要闻"]
+    },
+    {
+      "id": "channel_muyang",
+      "name": "新聞看點 李沐陽",
+      "url": "https://www.youtube.com/@MuYangShow",
+      "youtubeId": "MuYangShow",
+      "subscriberCount": 1080000,
+      "thumbnailUrl": "https://picsum.photos/seed/muyang/64/64",
+      "categoryId": "entertainment_gossip",
+      "customTags": ["时事要闻"]
+    },
+    {
+      "id": "channel_tangjingyuan",
+      "name": "远见快评 唐靖远",
+      "url": "https://www.youtube.com/@TangJingYuan",
+      "youtubeId": "TangJingYuan",
+      "subscriberCount": 324000,
+      "thumbnailUrl": "https://picsum.photos/seed/tangjingyuan/64/64",
+      "categoryId": "entertainment_gossip",
+      "customTags": ["时事要闻"]
+    },
+    {
+      "id": "channel_duwen",
+      "name": "Du Wen 内蒙古杜文",
+      "url": "https://www.youtube.com/@duwen2024",
+      "youtubeId": "duwen2024",
+      "subscriberCount": 185000,
+      "thumbnailUrl": "https://picsum.photos/seed/duwen/64/64",
+      "categoryId": "entertainment_gossip",
+      "customTags": ["时事要闻"]
+    },
+    {
+      "id": "channel_voachinese",
+      "name": "美国之音中文网",
+      "url": "https://www.youtube.com/@voachinese",
+      "youtubeId": "voachinese",
+      "subscriberCount": 2285000,
+      "thumbnailUrl": "https://picsum.photos/seed/voachinese/64/64",
+      "categoryId": "entertainment_gossip",
+      "customTags": ["时事要闻"]
+    },
+    {
+      "id": "channel_redwall",
+      "name": "紅墙窄門",
+      "url": "https://www.youtube.com/@redwall8341",
+      "youtubeId": "redwall8341",
+      "subscriberCount": 62600,
+      "thumbnailUrl": "https://picsum.photos/seed/redwall/64/64",
+      "categoryId": "entertainment_gossip",
+      "customTags": ["时事要闻"]
+    },
+    {
+      "id": "channel_xdiaocha",
+      "name": "X調查",
+      "url": "https://www.youtube.com/@xdiaocha",
+      "youtubeId": "xdiaocha",
+      "subscriberCount": 1800000,
+      "thumbnailUrl": "https://picsum.photos/seed/xdiaocha/64/64",
+      "categoryId": "entertainment_gossip",
+      "customTags": ["奇闻趣事"]
+    },
+    {
+      "id": "channel_windstory",
+      "name": "奇聞觀察室",
+      "url": "https://www.youtube.com/@windstory",
+      "youtubeId": "windstory",
+      "subscriberCount": 732000,
+      "thumbnailUrl": "https://picsum.photos/seed/windstory/64/64",
+      "categoryId": "entertainment_gossip",
+      "customTags": ["奇闻趣事"]
+    },
+    {
+      "id": "channel_ndwtb",
+      "name": "脑洞乌托邦",
+      "url": "https://www.youtube.com/@NDWTB",
+      "youtubeId": "NDWTB",
+      "subscriberCount": 2370000,
+      "thumbnailUrl": "https://picsum.photos/seed/ndwtb/64/64",
+      "categoryId": "entertainment_gossip",
+      "customTags": ["奇闻趣事"]
+    },
+    {
+      "id": "channel_m2story",
+      "name": "M2档案",
+      "url": "https://www.youtube.com/@m2story",
+      "youtubeId": "m2story",
+      "subscriberCount": 847000,
+      "thumbnailUrl": "https://picsum.photos/seed/m2story/64/64",
+      "categoryId": "entertainment_gossip",
+      "customTags": ["奇闻趣事"]
+    },
+    {
+      "id": "channel_linkstv",
+      "name": "Links TV",
+      "url": "https://www.youtube.com/@linksphotograph",
+      "youtubeId": "linksphotograph",
+      "subscriberCount": 847000,
+      "thumbnailUrl": "https://picsum.photos/seed/linkstv/64/64",
+      "categoryId": "entertainment_gossip",
+      "customTags": ["旅游"]
+    },
+    {
+      "id": "channel_maizong",
+      "name": "麦总去哪吃",
+      "url": "https://www.youtube.com/@MaiZong",
+      "youtubeId": "MaiZong",
+      "subscriberCount": 847000,
+      "thumbnailUrl": "https://picsum.photos/seed/maizong/64/64",
+      "categoryId": "entertainment_gossip",
+      "customTags": ["美食"]
+    },
+    {
+      "id": "channel_johnny",
+      "name": "小钟Johnny",
+      "url": "https://www.youtube.com/@Johnny_vlog",
+      "youtubeId": "Johnny_vlog",
+      "subscriberCount": 597000,
+      "thumbnailUrl": "https://picsum.photos/seed/johnny/64/64",
+      "categoryId": "entertainment_gossip",
+      "customTags": ["旅游"]
+    }
+  ]
+}

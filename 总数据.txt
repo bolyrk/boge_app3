@@ -1,0 +1,1902 @@
+{
+  "categories": [
+    {
+      "id": "programming",
+      "name": "编程",
+      "order": 1,
+      "updatedAt": "2025-06-14T12:28:01.597Z"
+    },
+    {
+      "id": "entertainment",
+      "name": "影视",
+      "order": 1,
+      "createdAt": "2025-06-14T11:46:55.320Z",
+      "updatedAt": "2025-06-14T11:46:55.320Z"
+    },
+    {
+      "id": "ai",
+      "name": "AI",
+      "order": 1,
+      "createdAt": "2025-06-14T11:47:18.196Z",
+      "updatedAt": "2025-06-14T11:47:18.196Z"
+    },
+    {
+      "id": "entertainment_gossip",
+      "name": "娱乐八卦",
+      "order": 10,
+      "createdAt": "2025-06-14T12:31:36.992Z",
+      "updatedAt": "2025-06-14T12:31:36.992Z"
+    },
+    {
+      "id": "fitness_health",
+      "name": "健身养生",
+      "order": 11,
+      "createdAt": "2025-06-14T12:54:31.959Z",
+      "updatedAt": "2025-06-14T12:54:31.959Z"
+    }
+  ],
+  "channels": [
+    {
+      "id": "channel_51",
+      "youtubeId": "freeCodeCamporg",
+      "name": "freeCodeCamp.org",
+      "subscriberCount": 7060000,
+      "thumbnailUrl": "https://picsum.photos/seed/channel_51/64/64",
+      "description": "",
+      "categoryId": "programming",
+      "customTags": [
+        "前后端综合"
+      ],
+      "url": "https://www.youtube.com/@freecodecamp",
+      "lastUpdated": "2025-06-14T10:27:21.265Z",
+      "addedAt": "2025-06-14T10:27:21.265Z",
+      "updatedAt": "2025-06-14T10:28:34.110Z"
+    },
+    {
+      "id": "channel_1",
+      "youtubeId": "MangoTVDramaOfficial",
+      "name": "芒果TV青春剧场",
+      "subscriberCount": 4740000,
+      "thumbnailUrl": "https://picsum.photos/seed/MangoTVDramaOfficial/64/64",
+      "description": "",
+      "categoryId": "entertainment",
+      "customTags": [
+        "电影"
+      ],
+      "url": "https://www.youtube.com/@MangoTVDramaOfficial",
+      "lastUpdated": "2025-06-14T10:27:21.265Z",
+      "addedAt": "2025-06-14T10:27:21.265Z"
+    },
+    {
+      "id": "channel_1749902574250",
+      "youtubeId": "UC7ahx3u98",
+      "name": "倒霉熊",
+      "subscriberCount": 4560000,
+      "thumbnailUrl": "https://picsum.photos/seed/UC7ahx3u98/64/64",
+      "description": "这是一个示例YouTube频道描述。",
+      "categoryId": "entertainment",
+      "customTags": [
+        "动漫"
+      ],
+      "url": "https://www.youtube.com/@BrbplayBernardbear",
+      "lastUpdated": "2025-06-14T12:02:54.250Z",
+      "addedAt": "2025-06-14T12:02:54.250Z",
+      "updatedAt": "2025-06-14T12:13:11.579Z"
+    },
+    {
+      "id": "channel_1749903191575_2sqi4",
+      "youtubeId": "CodeWithHarry",
+      "name": "CodeWithHarry",
+      "subscriberCount": 3670000,
+      "thumbnailUrl": "https://picsum.photos/seed/channel_13/64/64",
+      "description": "",
+      "categoryId": "programming",
+      "customTags": [
+        "前端频道",
+        "web前端综合知识"
+      ],
+      "url": "https://www.youtube.com/@CodeWithHarry",
+      "lastUpdated": "2025-06-14T12:13:11.575Z",
+      "addedAt": "2025-06-14T12:13:11.575Z",
+      "updatedAt": "2025-06-14T11:47:39.744Z"
+    },
+    {
+      "id": "channel_53",
+      "youtubeId": "edureka",
+      "name": "edureka!",
+      "subscriberCount": 3670000,
+      "thumbnailUrl": "https://picsum.photos/seed/channel_53/64/64",
+      "description": "",
+      "categoryId": "programming",
+      "customTags": [
+        "前后端综合"
+      ],
+      "url": "https://www.youtube.com/@edureka",
+      "lastUpdated": "2025-06-14T10:27:21.265Z",
+      "addedAt": "2025-06-14T10:27:21.266Z"
+    },
+    {
+      "id": "channel_3",
+      "youtubeId": "Body-if7hc1yk8u",
+      "name": "特战行动",
+      "subscriberCount": 3590000,
+      "thumbnailUrl": "https://picsum.photos/seed/Body-if7hc1yk8u/64/64",
+      "description": "",
+      "categoryId": "entertainment",
+      "customTags": [
+        "电影"
+      ],
+      "url": "https://www.youtube.com/@Body-if7hc1yk8u",
+      "lastUpdated": "2025-06-14T10:27:21.265Z",
+      "addedAt": "2025-06-14T10:27:21.265Z"
+    },
+    {
+      "id": "channel_2",
+      "youtubeId": "BabyBusTC",
+      "name": "寶寶巴士",
+      "subscriberCount": 3550000,
+      "thumbnailUrl": "https://picsum.photos/seed/BabyBusTC/64/64",
+      "description": "",
+      "categoryId": "entertainment",
+      "customTags": [
+        "动漫"
+      ],
+      "url": "https://www.youtube.com/@BabyBusTC",
+      "lastUpdated": "2025-06-14T10:27:21.265Z",
+      "addedAt": "2025-06-14T10:27:21.265Z"
+    },
+    {
+      "id": "channel_54",
+      "youtubeId": "ProgrammingwithMosh",
+      "name": "Programming with Mosh",
+      "subscriberCount": 3040000,
+      "thumbnailUrl": "https://picsum.photos/seed/channel_54/64/64",
+      "description": "",
+      "categoryId": "programming",
+      "customTags": [
+        "前后端综合"
+      ],
+      "url": "https://www.youtube.com/@ProgrammingwithMosh",
+      "lastUpdated": "2025-06-14T10:27:21.266Z",
+      "addedAt": "2025-06-14T10:27:21.266Z"
+    },
+    {
+      "id": "channel_55",
+      "youtubeId": "Simplilearn",
+      "name": "Simplilearn",
+      "subscriberCount": 2730000,
+      "thumbnailUrl": "https://picsum.photos/seed/channel_55/64/64",
+      "description": "",
+      "categoryId": "programming",
+      "customTags": [
+        "前后端综合"
+      ],
+      "url": "https://www.youtube.com/@Simplilearn",
+      "lastUpdated": "2025-06-14T10:27:21.266Z",
+      "addedAt": "2025-06-14T10:27:21.266Z"
+    },
+    {
+      "id": "channel_56",
+      "youtubeId": "thenewboston",
+      "name": "thenewboston",
+      "subscriberCount": 2650000,
+      "thumbnailUrl": "https://picsum.photos/seed/channel_56/64/64",
+      "description": "",
+      "categoryId": "programming",
+      "customTags": [
+        "前后端综合"
+      ],
+      "url": "https://www.youtube.com/@thenewboston",
+      "lastUpdated": "2025-06-14T10:27:21.266Z",
+      "addedAt": "2025-06-14T10:27:21.266Z"
+    },
+    {
+      "id": "channel_ndwtb",
+      "name": "脑洞乌托邦",
+      "url": "https://www.youtube.com/@NDWTB",
+      "youtubeId": "NDWTB",
+      "subscriberCount": 2370000,
+      "thumbnailUrl": "https://picsum.photos/seed/ndwtb/64/64",
+      "categoryId": "entertainment_gossip",
+      "customTags": [
+        "奇闻趣事"
+      ],
+      "description": "",
+      "lastUpdated": "2025-06-14T12:31:36.993Z",
+      "addedAt": "2025-06-14T12:31:36.993Z"
+    },
+    {
+      "id": "channel_voachinese",
+      "name": "美国之音中文网",
+      "url": "https://www.youtube.com/@voachinese",
+      "youtubeId": "voachinese",
+      "subscriberCount": 2285000,
+      "thumbnailUrl": "https://picsum.photos/seed/voachinese/64/64",
+      "categoryId": "entertainment_gossip",
+      "customTags": [
+        "时事要闻"
+      ],
+      "description": "",
+      "lastUpdated": "2025-06-14T12:31:36.993Z",
+      "addedAt": "2025-06-14T12:31:36.993Z"
+    },
+    {
+      "id": "channel_4",
+      "youtubeId": "ShengshiDrama",
+      "name": "盛世短剧",
+      "subscriberCount": 2270000,
+      "thumbnailUrl": "https://picsum.photos/seed/ShengshiDrama/64/64",
+      "description": "",
+      "categoryId": "entertainment",
+      "customTags": [
+        "短剧"
+      ],
+      "url": "https://www.youtube.com/@ShengshiDrama",
+      "lastUpdated": "2025-06-14T10:27:21.265Z",
+      "addedAt": "2025-06-14T10:27:21.265Z"
+    },
+    {
+      "id": "channel_63",
+      "youtubeId": "计算机爱好者",
+      "name": "计算机爱好者",
+      "subscriberCount": 2240000,
+      "thumbnailUrl": "https://picsum.photos/seed/channel_63/64/64",
+      "description": "",
+      "categoryId": "programming",
+      "customTags": [
+        "创作灵感"
+      ],
+      "url": "https://www.youtube.com/@计算机爱好者",
+      "lastUpdated": "2025-06-14T10:27:21.266Z",
+      "addedAt": "2025-06-14T10:27:21.266Z"
+    },
+    {
+      "id": "channel_14",
+      "youtubeId": "TraversyMedia",
+      "name": "Traversy Media",
+      "subscriberCount": 2010000,
+      "thumbnailUrl": "https://picsum.photos/seed/channel_14/64/64",
+      "description": "",
+      "categoryId": "programming",
+      "customTags": [
+        "前端频道",
+        "web前端综合知识"
+      ],
+      "url": "https://www.youtube.com/@TraversyMedia",
+      "lastUpdated": "2025-06-14T10:27:21.265Z",
+      "addedAt": "2025-06-14T10:27:21.265Z"
+    },
+    {
+      "id": "channel_47",
+      "youtubeId": "Telusko",
+      "name": "Telusko",
+      "subscriberCount": 1900000,
+      "thumbnailUrl": "https://picsum.photos/seed/channel_47/64/64",
+      "description": "",
+      "categoryId": "programming",
+      "customTags": [
+        "后端频道",
+        "Java"
+      ],
+      "url": "https://www.youtube.com/@Telusko",
+      "lastUpdated": "2025-06-14T10:27:21.265Z",
+      "addedAt": "2025-06-14T10:27:21.265Z"
+    },
+    {
+      "id": "channel_xdiaocha",
+      "name": "X調查",
+      "url": "https://www.youtube.com/@xdiaocha",
+      "youtubeId": "xdiaocha",
+      "subscriberCount": 1800000,
+      "thumbnailUrl": "https://picsum.photos/seed/xdiaocha/64/64",
+      "categoryId": "entertainment_gossip",
+      "customTags": [
+        "奇闻趣事"
+      ],
+      "description": "",
+      "lastUpdated": "2025-06-14T12:31:36.993Z",
+      "addedAt": "2025-06-14T12:31:36.993Z"
+    },
+    {
+      "id": "channel_64",
+      "youtubeId": "Fireship",
+      "name": "Fireship",
+      "subscriberCount": 1790000,
+      "thumbnailUrl": "https://picsum.photos/seed/channel_64/64/64",
+      "description": "",
+      "categoryId": "programming",
+      "customTags": [
+        "创作灵感"
+      ],
+      "url": "https://www.youtube.com/@Fireship",
+      "lastUpdated": "2025-06-14T10:27:21.266Z",
+      "addedAt": "2025-06-14T10:27:21.266Z"
+    },
+    {
+      "id": "channel_65",
+      "youtubeId": "LearnCoding",
+      "name": "Learn Coding",
+      "subscriberCount": 1720000,
+      "thumbnailUrl": "https://picsum.photos/seed/channel_65/64/64",
+      "description": "",
+      "categoryId": "programming",
+      "customTags": [
+        "创作灵感"
+      ],
+      "url": "https://www.youtube.com/@LearnCoding",
+      "lastUpdated": "2025-06-14T10:27:21.266Z",
+      "addedAt": "2025-06-14T10:27:21.266Z"
+    },
+    {
+      "id": "channel_57",
+      "youtubeId": "ProgrammingKnowledge",
+      "name": "ProgrammingKnowledge",
+      "subscriberCount": 1630000,
+      "thumbnailUrl": "https://picsum.photos/seed/channel_57/64/64",
+      "description": "",
+      "categoryId": "programming",
+      "customTags": [
+        "前后端综合"
+      ],
+      "url": "https://www.youtube.com/@ProgrammingKnowledge",
+      "lastUpdated": "2025-06-14T10:27:21.266Z",
+      "addedAt": "2025-06-14T10:27:21.266Z"
+    },
+    {
+      "id": "channel_66",
+      "youtubeId": "TheCodingTrain",
+      "name": "The Coding Train",
+      "subscriberCount": 1600000,
+      "thumbnailUrl": "https://picsum.photos/seed/channel_66/64/64",
+      "description": "",
+      "categoryId": "programming",
+      "customTags": [
+        "创作灵感"
+      ],
+      "url": "https://www.youtube.com/@TheCodingTrain",
+      "lastUpdated": "2025-06-14T10:27:21.266Z",
+      "addedAt": "2025-06-14T10:27:21.266Z"
+    },
+    {
+      "id": "channel_wenzhao",
+      "name": "文昭談古論今",
+      "url": "https://www.youtube.com/@wenzhaoofficial",
+      "youtubeId": "wenzhaoofficial",
+      "subscriberCount": 1590000,
+      "thumbnailUrl": "https://picsum.photos/seed/wenzhao/64/64",
+      "categoryId": "entertainment_gossip",
+      "customTags": [
+        "时事要闻"
+      ],
+      "description": "",
+      "lastUpdated": "2025-06-14T12:31:36.992Z",
+      "addedAt": "2025-06-14T12:31:36.992Z"
+    },
+    {
+      "id": "channel_38",
+      "youtubeId": "TechWithTim",
+      "name": "Tech With Tim",
+      "subscriberCount": 1280000,
+      "thumbnailUrl": "https://picsum.photos/seed/channel_38/64/64",
+      "description": "",
+      "categoryId": "programming",
+      "customTags": [
+        "后端频道",
+        "Python"
+      ],
+      "url": "https://www.youtube.com/@TechWithTim",
+      "lastUpdated": "2025-06-14T10:27:21.265Z",
+      "addedAt": "2025-06-14T10:27:21.265Z"
+    },
+    {
+      "id": "channel_jiangfeng",
+      "name": "江峰时刻",
+      "url": "https://www.youtube.com/@JiangFengTimes",
+      "youtubeId": "JiangFengTimes",
+      "subscriberCount": 1280000,
+      "thumbnailUrl": "https://picsum.photos/seed/jiangfeng/64/64",
+      "categoryId": "entertainment_gossip",
+      "customTags": [
+        "时事要闻"
+      ],
+      "description": "",
+      "lastUpdated": "2025-06-14T12:31:36.992Z",
+      "addedAt": "2025-06-14T12:31:36.992Z"
+    },
+    {
+      "id": "channel_25",
+      "youtubeId": "PAPAYA",
+      "name": "PAPAYA 電腦教室",
+      "subscriberCount": 1250000,
+      "thumbnailUrl": "https://picsum.photos/seed/channel_25/64/64",
+      "description": "",
+      "categoryId": "programming",
+      "customTags": [
+        "前端频道",
+        "UI设计知识"
+      ],
+      "url": "https://www.youtube.com/@PAPAYA",
+      "lastUpdated": "2025-06-14T10:27:21.265Z",
+      "addedAt": "2025-06-14T10:27:21.265Z"
+    },
+    {
+      "id": "channel_58",
+      "youtubeId": "DerekBanas",
+      "name": "Derek Banas",
+      "subscriberCount": 1220000,
+      "thumbnailUrl": "https://picsum.photos/seed/channel_58/64/64",
+      "description": "",
+      "categoryId": "programming",
+      "customTags": [
+        "前后端综合"
+      ],
+      "url": "https://www.youtube.com/@DerekBanas",
+      "lastUpdated": "2025-06-14T10:27:21.266Z",
+      "addedAt": "2025-06-14T10:27:21.266Z"
+    },
+    {
+      "id": "channel_15",
+      "youtubeId": "WebDevSimplified",
+      "name": "Web Dev Simplified",
+      "subscriberCount": 1180000,
+      "thumbnailUrl": "https://picsum.photos/seed/channel_15/64/64",
+      "description": "",
+      "categoryId": "programming",
+      "customTags": [
+        "前端频道",
+        "web前端综合知识"
+      ],
+      "url": "https://www.youtube.com/@WebDevSimplified",
+      "lastUpdated": "2025-06-14T10:27:21.265Z",
+      "addedAt": "2025-06-14T10:27:21.265Z"
+    },
+    {
+      "id": "channel_6",
+      "youtubeId": "youkuanimation",
+      "name": "优酷动漫",
+      "subscriberCount": 1170000,
+      "thumbnailUrl": "https://picsum.photos/seed/youkuanimation/64/64",
+      "description": "",
+      "categoryId": "entertainment",
+      "customTags": [
+        "动漫"
+      ],
+      "url": "https://www.youtube.com/@youkuanimation",
+      "lastUpdated": "2025-06-14T10:27:21.265Z",
+      "addedAt": "2025-06-14T10:27:21.265Z"
+    },
+    {
+      "id": "channel_26",
+      "youtubeId": "envatotuts",
+      "name": "envatotuts",
+      "subscriberCount": 1090000,
+      "thumbnailUrl": "https://picsum.photos/seed/channel_26/64/64",
+      "description": "",
+      "categoryId": "programming",
+      "customTags": [
+        "前端频道",
+        "UI设计知识"
+      ],
+      "url": "https://www.youtube.com/@envatotuts",
+      "lastUpdated": "2025-06-14T10:27:21.265Z",
+      "addedAt": "2025-06-14T10:27:21.265Z"
+    },
+    {
+      "id": "channel_muyang",
+      "name": "新聞看點 李沐陽",
+      "url": "https://www.youtube.com/@MuYangShow",
+      "youtubeId": "MuYangShow",
+      "subscriberCount": 1080000,
+      "thumbnailUrl": "https://picsum.photos/seed/muyang/64/64",
+      "categoryId": "entertainment_gossip",
+      "customTags": [
+        "时事要闻"
+      ],
+      "description": "",
+      "lastUpdated": "2025-06-14T12:31:36.992Z",
+      "addedAt": "2025-06-14T12:31:36.992Z"
+    },
+    {
+      "id": "channel_59",
+      "youtubeId": "ElzeroWebSchool",
+      "name": "Elzero Web School",
+      "subscriberCount": 1070000,
+      "thumbnailUrl": "https://picsum.photos/seed/channel_59/64/64",
+      "description": "",
+      "categoryId": "programming",
+      "customTags": [
+        "前后端综合"
+      ],
+      "url": "https://www.youtube.com/@ElzeroWebSchool",
+      "lastUpdated": "2025-06-14T10:27:21.266Z",
+      "addedAt": "2025-06-14T10:27:21.266Z"
+    },
+    {
+      "id": "channel_16",
+      "youtubeId": "NetNinja",
+      "name": "NetNinja",
+      "subscriberCount": 1060000,
+      "thumbnailUrl": "https://picsum.photos/seed/channel_16/64/64",
+      "description": "",
+      "categoryId": "programming",
+      "customTags": [
+        "前端频道",
+        "web前端综合知识"
+      ],
+      "url": "https://www.youtube.com/@NetNinja",
+      "lastUpdated": "2025-06-14T10:27:21.265Z",
+      "addedAt": "2025-06-14T10:27:21.265Z"
+    },
+    {
+      "id": "channel_27",
+      "youtubeId": "DesignCourse",
+      "name": "DesignCourse",
+      "subscriberCount": 1010000,
+      "thumbnailUrl": "https://picsum.photos/seed/channel_27/64/64",
+      "description": "",
+      "categoryId": "programming",
+      "customTags": [
+        "前端频道",
+        "UI设计知识"
+      ],
+      "url": "https://www.youtube.com/@DesignCourse",
+      "lastUpdated": "2025-06-14T10:27:21.265Z",
+      "addedAt": "2025-06-14T10:27:21.265Z"
+    },
+    {
+      "id": "channel_5",
+      "youtubeId": "youkumovie",
+      "name": "优酷电影",
+      "subscriberCount": 1000000,
+      "thumbnailUrl": "https://picsum.photos/seed/youkumovie/64/64",
+      "description": "",
+      "categoryId": "entertainment",
+      "customTags": [
+        "电影"
+      ],
+      "url": "https://www.youtube.com/@youkumovie",
+      "lastUpdated": "2025-06-14T10:27:21.265Z",
+      "addedAt": "2025-06-14T10:27:21.265Z"
+    },
+    {
+      "id": "channel_1749901659745_e67m0",
+      "youtubeId": "GreatStack",
+      "name": "GreatStack",
+      "subscriberCount": 866000,
+      "thumbnailUrl": "https://picsum.photos/seed/channel_1/64/64",
+      "description": "",
+      "categoryId": "programming",
+      "customTags": [
+        "前端频道",
+        "优质前端案列"
+      ],
+      "url": "https://www.youtube.com/@GreatStack",
+      "lastUpdated": "2025-06-14T11:47:39.745Z",
+      "addedAt": "2025-06-14T11:47:39.745Z"
+    },
+    {
+      "id": "channel_1749901659745_8mcc7",
+      "youtubeId": "OnlineTutorials",
+      "name": "Online Tutorials",
+      "subscriberCount": 859000,
+      "thumbnailUrl": "https://picsum.photos/seed/channel_2/64/64",
+      "description": "",
+      "categoryId": "programming",
+      "customTags": [
+        "前端频道",
+        "优质前端案列"
+      ],
+      "url": "https://www.youtube.com/@OnlineTutorials",
+      "lastUpdated": "2025-06-14T11:47:39.745Z",
+      "addedAt": "2025-06-14T11:47:39.745Z"
+    },
+    {
+      "id": "channel_m2story",
+      "name": "M2档案",
+      "url": "https://www.youtube.com/@m2story",
+      "youtubeId": "m2story",
+      "subscriberCount": 847000,
+      "thumbnailUrl": "https://picsum.photos/seed/m2story/64/64",
+      "categoryId": "entertainment_gossip",
+      "customTags": [
+        "奇闻趣事"
+      ],
+      "description": "",
+      "lastUpdated": "2025-06-14T12:31:36.993Z",
+      "addedAt": "2025-06-14T12:31:36.993Z"
+    },
+    {
+      "id": "channel_linkstv",
+      "name": "Links TV",
+      "url": "https://www.youtube.com/@linksphotograph",
+      "youtubeId": "linksphotograph",
+      "subscriberCount": 847000,
+      "thumbnailUrl": "https://picsum.photos/seed/linkstv/64/64",
+      "categoryId": "entertainment_gossip",
+      "customTags": [
+        "旅游"
+      ],
+      "description": "",
+      "lastUpdated": "2025-06-14T12:31:36.993Z",
+      "addedAt": "2025-06-14T12:31:36.993Z"
+    },
+    {
+      "id": "channel_maizong",
+      "name": "麦总去哪吃",
+      "url": "https://www.youtube.com/@MaiZong",
+      "youtubeId": "MaiZong",
+      "subscriberCount": 847000,
+      "thumbnailUrl": "https://picsum.photos/seed/maizong/64/64",
+      "categoryId": "entertainment_gossip",
+      "customTags": [
+        "美食"
+      ],
+      "description": "",
+      "lastUpdated": "2025-06-14T12:31:36.993Z",
+      "addedAt": "2025-06-14T12:31:36.993Z"
+    },
+    {
+      "id": "channel_17",
+      "youtubeId": "Academind",
+      "name": "Academind",
+      "subscriberCount": 844000,
+      "thumbnailUrl": "https://picsum.photos/seed/channel_17/64/64",
+      "description": "",
+      "categoryId": "programming",
+      "customTags": [
+        "前端频道",
+        "web前端综合知识"
+      ],
+      "url": "https://www.youtube.com/@Academind",
+      "lastUpdated": "2025-06-14T10:27:21.265Z",
+      "addedAt": "2025-06-14T10:27:21.265Z"
+    },
+    {
+      "id": "channel_7",
+      "youtubeId": "ChineseAnimation",
+      "name": "动漫魔女",
+      "subscriberCount": 816000,
+      "thumbnailUrl": "https://picsum.photos/seed/ChineseAnimation/64/64",
+      "description": "",
+      "categoryId": "entertainment",
+      "customTags": [
+        "动漫"
+      ],
+      "url": "https://www.youtube.com/@ChineseAnimation",
+      "lastUpdated": "2025-06-14T10:27:21.265Z",
+      "addedAt": "2025-06-14T10:27:21.265Z"
+    },
+    {
+      "id": "channel_1749901659745_xks8g",
+      "youtubeId": "EasyTutorials",
+      "name": "Easy Tutorials",
+      "subscriberCount": 774000,
+      "thumbnailUrl": "https://picsum.photos/seed/channel_3/64/64",
+      "description": "",
+      "categoryId": "programming",
+      "customTags": [
+        "前端频道",
+        "优质前端案列"
+      ],
+      "url": "https://www.youtube.com/@EasyTutorials",
+      "lastUpdated": "2025-06-14T11:47:39.745Z",
+      "addedAt": "2025-06-14T11:47:39.745Z"
+    },
+    {
+      "id": "channel_19",
+      "youtubeId": "LearnCodeacademy",
+      "name": "LearnCode.academy",
+      "subscriberCount": 762000,
+      "thumbnailUrl": "https://picsum.photos/seed/channel_19/64/64",
+      "description": "",
+      "categoryId": "programming",
+      "customTags": [
+        "前端频道",
+        "web前端综合知识"
+      ],
+      "url": "https://www.youtube.com/@LearnCodeacademy",
+      "lastUpdated": "2025-06-14T10:27:21.265Z",
+      "addedAt": "2025-06-14T10:27:21.265Z",
+      "updatedAt": "2025-06-14T11:47:39.745Z"
+    },
+    {
+      "id": "channel_20",
+      "youtubeId": "developedbyed",
+      "name": "developedbyed",
+      "subscriberCount": 762000,
+      "thumbnailUrl": "https://picsum.photos/seed/channel_20/64/64",
+      "description": "",
+      "categoryId": "programming",
+      "customTags": [
+        "前端频道",
+        "web前端综合知识"
+      ],
+      "url": "https://www.youtube.com/@developedbyed",
+      "lastUpdated": "2025-06-14T10:27:21.265Z",
+      "addedAt": "2025-06-14T10:27:21.265Z"
+    },
+    {
+      "id": "channel_windstory",
+      "name": "奇聞觀察室",
+      "url": "https://www.youtube.com/@windstory",
+      "youtubeId": "windstory",
+      "subscriberCount": 732000,
+      "thumbnailUrl": "https://picsum.photos/seed/windstory/64/64",
+      "categoryId": "entertainment_gossip",
+      "customTags": [
+        "奇闻趣事"
+      ],
+      "description": "",
+      "lastUpdated": "2025-06-14T12:31:36.993Z",
+      "addedAt": "2025-06-14T12:31:36.993Z"
+    },
+    {
+      "id": "channel_60",
+      "youtubeId": "编码技术",
+      "name": "编码技术",
+      "subscriberCount": 729000,
+      "thumbnailUrl": "https://picsum.photos/seed/channel_60/64/64",
+      "description": "",
+      "categoryId": "programming",
+      "customTags": [
+        "前后端综合"
+      ],
+      "url": "https://www.youtube.com/@编码技术",
+      "lastUpdated": "2025-06-14T10:27:21.266Z",
+      "addedAt": "2025-06-14T10:27:21.266Z"
+    },
+    {
+      "id": "channel_67",
+      "youtubeId": "BroCodez",
+      "name": "BroCodez",
+      "subscriberCount": 727000,
+      "thumbnailUrl": "https://picsum.photos/seed/channel_67/64/64",
+      "description": "",
+      "categoryId": "programming",
+      "customTags": [
+        "创作灵感"
+      ],
+      "url": "https://www.youtube.com/@BroCodez",
+      "lastUpdated": "2025-06-14T10:27:21.266Z",
+      "addedAt": "2025-06-14T10:27:21.266Z"
+    },
+    {
+      "id": "channel_61",
+      "youtubeId": "BroCode",
+      "name": "Bro Code",
+      "subscriberCount": 715000,
+      "thumbnailUrl": "https://picsum.photos/seed/channel_61/64/64",
+      "description": "",
+      "categoryId": "programming",
+      "customTags": [
+        "前后端综合"
+      ],
+      "url": "https://www.youtube.com/@BroCode",
+      "lastUpdated": "2025-06-14T10:27:21.266Z",
+      "addedAt": "2025-06-14T10:27:21.266Z"
+    },
+    {
+      "id": "channel_34",
+      "youtubeId": "KevinPowell",
+      "name": "KevinPowell",
+      "subscriberCount": 697000,
+      "thumbnailUrl": "https://picsum.photos/seed/channel_34/64/64",
+      "description": "",
+      "categoryId": "programming",
+      "customTags": [
+        "前端频道",
+        "优质up"
+      ],
+      "url": "https://www.youtube.com/@KevinPowell",
+      "lastUpdated": "2025-06-14T10:27:21.265Z",
+      "addedAt": "2025-06-14T10:27:21.265Z"
+    },
+    {
+      "id": "channel_8",
+      "youtubeId": "LittleFoxChinese",
+      "name": "Little Fox 中文",
+      "subscriberCount": 691000,
+      "thumbnailUrl": "https://picsum.photos/seed/LittleFoxChinese/64/64",
+      "description": "",
+      "categoryId": "entertainment",
+      "customTags": [
+        "动漫"
+      ],
+      "url": "https://www.youtube.com/@LittleFoxChinese",
+      "lastUpdated": "2025-06-14T10:27:21.265Z",
+      "addedAt": "2025-06-14T10:27:21.265Z"
+    },
+    {
+      "id": "channel_1749901638196_6owl0",
+      "youtubeId": "applemei",
+      "name": "苹果妹",
+      "subscriberCount": 614000,
+      "thumbnailUrl": "https://picsum.photos/seed/applemei/64/64",
+      "description": "",
+      "categoryId": "ai",
+      "customTags": [
+        "AI",
+        "AI工具"
+      ],
+      "url": "https://www.youtube.com/@applemei",
+      "lastUpdated": "2025-06-14T11:47:18.196Z",
+      "addedAt": "2025-06-14T11:47:18.196Z"
+    },
+    {
+      "id": "channel_johnny",
+      "name": "小钟Johnny",
+      "url": "https://www.youtube.com/@Johnny_vlog",
+      "youtubeId": "Johnny_vlog",
+      "subscriberCount": 597000,
+      "thumbnailUrl": "https://picsum.photos/seed/johnny/64/64",
+      "categoryId": "entertainment_gossip",
+      "customTags": [
+        "旅游"
+      ],
+      "description": "",
+      "lastUpdated": "2025-06-14T12:31:36.993Z",
+      "addedAt": "2025-06-14T12:31:36.993Z"
+    },
+    {
+      "id": "channel_43",
+      "youtubeId": "Amigoscode",
+      "name": "Amigoscode",
+      "subscriberCount": 536000,
+      "thumbnailUrl": "https://picsum.photos/seed/channel_43/64/64",
+      "description": "",
+      "categoryId": "programming",
+      "customTags": [
+        "后端频道",
+        "Java"
+      ],
+      "url": "https://www.youtube.com/@Amigoscode",
+      "lastUpdated": "2025-06-14T10:27:21.265Z",
+      "addedAt": "2025-06-14T10:27:21.265Z"
+    },
+    {
+      "id": "channel_32",
+      "youtubeId": "javaScriptMastery",
+      "name": "javaScript Mastery",
+      "subscriberCount": 495000,
+      "thumbnailUrl": "https://picsum.photos/seed/channel_32/64/64",
+      "description": "",
+      "categoryId": "programming",
+      "customTags": [
+        "前端频道",
+        "专题"
+      ],
+      "url": "https://www.youtube.com/@javaScriptMastery",
+      "lastUpdated": "2025-06-14T10:27:21.265Z",
+      "addedAt": "2025-06-14T10:27:21.265Z"
+    },
+    {
+      "id": "channel_1749902331355",
+      "youtubeId": "UCw685rvp2",
+      "name": "下山追剧",
+      "subscriberCount": 491000,
+      "thumbnailUrl": "https://picsum.photos/seed/UCw685rvp2/64/64",
+      "description": "这是一个示例YouTube频道描述。",
+      "categoryId": "entertainment",
+      "customTags": [
+        "短剧"
+      ],
+      "url": "https://www.youtube.com/@XiashanDrama",
+      "lastUpdated": "2025-06-14T11:58:51.355Z",
+      "addedAt": "2025-06-14T11:58:51.355Z",
+      "updatedAt": "2025-06-14T12:13:11.579Z"
+    },
+    {
+      "id": "channel_68",
+      "youtubeId": "黑客技术",
+      "name": "黑客技术",
+      "subscriberCount": 461000,
+      "thumbnailUrl": "https://picsum.photos/seed/channel_68/64/64",
+      "description": "",
+      "categoryId": "programming",
+      "customTags": [
+        "创作灵感"
+      ],
+      "url": "https://www.youtube.com/@黑客技术",
+      "lastUpdated": "2025-06-14T10:27:21.266Z",
+      "addedAt": "2025-06-14T10:27:21.266Z"
+    },
+    {
+      "id": "channel_69",
+      "youtubeId": "阿甘骑士",
+      "name": "阿甘骑士",
+      "subscriberCount": 418000,
+      "thumbnailUrl": "https://picsum.photos/seed/channel_69/64/64",
+      "description": "",
+      "categoryId": "programming",
+      "customTags": [
+        "创作灵感"
+      ],
+      "url": "https://www.youtube.com/@阿甘骑士",
+      "lastUpdated": "2025-06-14T10:27:21.266Z",
+      "addedAt": "2025-06-14T10:27:21.266Z"
+    },
+    {
+      "id": "channel_10",
+      "youtubeId": "漫推男孩",
+      "name": "漫推男孩",
+      "subscriberCount": 382000,
+      "thumbnailUrl": "https://picsum.photos/seed/漫推男孩/64/64",
+      "description": "",
+      "categoryId": "entertainment",
+      "customTags": [
+        "动漫"
+      ],
+      "url": "https://www.youtube.com/@%E6%BC%AB%E6%8E%A8%E7%94%B7%E5%AD%A9",
+      "lastUpdated": "2025-06-14T10:27:21.265Z",
+      "addedAt": "2025-06-14T10:27:21.265Z"
+    },
+    {
+      "id": "channel_28",
+      "youtubeId": "DevTips",
+      "name": "DevTips",
+      "subscriberCount": 359000,
+      "thumbnailUrl": "https://picsum.photos/seed/channel_28/64/64",
+      "description": "",
+      "categoryId": "programming",
+      "customTags": [
+        "前端频道",
+        "前端的一些想法"
+      ],
+      "url": "https://www.youtube.com/@DevTips",
+      "lastUpdated": "2025-06-14T10:27:21.265Z",
+      "addedAt": "2025-06-14T10:27:21.265Z"
+    },
+    {
+      "id": "channel_21",
+      "youtubeId": "LevelUpTuts",
+      "name": "LevelUpTuts",
+      "subscriberCount": 346000,
+      "thumbnailUrl": "https://picsum.photos/seed/channel_21/64/64",
+      "description": "",
+      "categoryId": "programming",
+      "customTags": [
+        "前端频道",
+        "web前端综合知识"
+      ],
+      "url": "https://www.youtube.com/@LevelUpTuts",
+      "lastUpdated": "2025-06-14T10:27:21.265Z",
+      "addedAt": "2025-06-14T10:27:21.265Z"
+    },
+    {
+      "id": "channel_1749901659746_n6fl7",
+      "youtubeId": "DarkCodeOnline",
+      "name": "DarkCodeOnline",
+      "subscriberCount": 340000,
+      "thumbnailUrl": "https://picsum.photos/seed/channel_4/64/64",
+      "description": "",
+      "categoryId": "programming",
+      "customTags": [
+        "前端频道",
+        "优质前端案列"
+      ],
+      "url": "https://www.youtube.com/@DarkCodeOnline",
+      "lastUpdated": "2025-06-14T11:47:39.746Z",
+      "addedAt": "2025-06-14T11:47:39.746Z"
+    },
+    {
+      "id": "channel_22",
+      "youtubeId": "LearnWebCode",
+      "name": "LearnWebCode",
+      "subscriberCount": 329000,
+      "thumbnailUrl": "https://picsum.photos/seed/channel_22/64/64",
+      "description": "",
+      "categoryId": "programming",
+      "customTags": [
+        "前端频道",
+        "web前端综合知识"
+      ],
+      "url": "https://www.youtube.com/@LearnWebCode",
+      "lastUpdated": "2025-06-14T10:27:21.265Z",
+      "addedAt": "2025-06-14T10:27:21.265Z"
+    },
+    {
+      "id": "channel_tangjingyuan",
+      "name": "远见快评 唐靖远",
+      "url": "https://www.youtube.com/@TangJingYuan",
+      "youtubeId": "TangJingYuan",
+      "subscriberCount": 324000,
+      "thumbnailUrl": "https://picsum.photos/seed/tangjingyuan/64/64",
+      "categoryId": "entertainment_gossip",
+      "customTags": [
+        "时事要闻"
+      ],
+      "description": "",
+      "lastUpdated": "2025-06-14T12:31:36.993Z",
+      "addedAt": "2025-06-14T12:31:36.993Z"
+    },
+    {
+      "id": "channel_11",
+      "youtubeId": "热血动漫社",
+      "name": "热血动漫社",
+      "subscriberCount": 300000,
+      "thumbnailUrl": "https://picsum.photos/seed/热血动漫社/64/64",
+      "description": "",
+      "categoryId": "entertainment",
+      "customTags": [
+        "动漫"
+      ],
+      "url": "https://www.youtube.com/@%E7%83%AD%E8%A1%80%E5%8A%A8%E6%BC%AB%E7%A4%BE",
+      "lastUpdated": "2025-06-14T10:27:21.265Z",
+      "addedAt": "2025-06-14T10:27:21.265Z"
+    },
+    {
+      "id": "channel_1749901638196_v5m2i",
+      "youtubeId": "Tan_Dongdong",
+      "name": "檀东东·Tango",
+      "subscriberCount": 230000,
+      "thumbnailUrl": "https://picsum.photos/seed/Tan_Dongdong/64/64",
+      "description": "",
+      "categoryId": "ai",
+      "customTags": [
+        "AI",
+        "AI工具"
+      ],
+      "url": "https://www.youtube.com/@Tan_Dongdong",
+      "lastUpdated": "2025-06-14T11:47:18.196Z",
+      "addedAt": "2025-06-14T11:47:18.196Z"
+    },
+    {
+      "id": "channel_23",
+      "youtubeId": "LamaDev",
+      "name": "Lama Dev",
+      "subscriberCount": 229000,
+      "thumbnailUrl": "https://picsum.photos/seed/channel_23/64/64",
+      "description": "",
+      "categoryId": "programming",
+      "customTags": [
+        "前端频道",
+        "web前端综合知识"
+      ],
+      "url": "https://www.youtube.com/@LamaDev",
+      "lastUpdated": "2025-06-14T10:27:21.265Z",
+      "addedAt": "2025-06-14T10:27:21.265Z"
+    },
+    {
+      "id": "channel_1749901638196_6mymm",
+      "youtubeId": "lyi",
+      "name": "林亦LYi",
+      "subscriberCount": 226000,
+      "thumbnailUrl": "https://picsum.photos/seed/lyi/64/64",
+      "description": "",
+      "categoryId": "ai",
+      "customTags": [
+        "AI",
+        "AI工具"
+      ],
+      "url": "https://www.youtube.com/@lyi",
+      "lastUpdated": "2025-06-14T11:47:18.196Z",
+      "addedAt": "2025-06-14T11:47:18.196Z"
+    },
+    {
+      "id": "channel_62",
+      "youtubeId": "LearnCodeWithDurgesh",
+      "name": "Learn Code With Durgesh",
+      "subscriberCount": 216000,
+      "thumbnailUrl": "https://picsum.photos/seed/channel_62/64/64",
+      "description": "",
+      "categoryId": "programming",
+      "customTags": [
+        "前后端综合"
+      ],
+      "url": "https://www.youtube.com/@LearnCodeWithDurgesh",
+      "lastUpdated": "2025-06-14T10:27:21.266Z",
+      "addedAt": "2025-06-14T10:27:21.266Z"
+    },
+    {
+      "id": "channel_39",
+      "youtubeId": "CodingEntrepreneurs",
+      "name": "CodingEntrepreneurs",
+      "subscriberCount": 214000,
+      "thumbnailUrl": "https://picsum.photos/seed/channel_39/64/64",
+      "description": "",
+      "categoryId": "programming",
+      "customTags": [
+        "后端频道",
+        "Python"
+      ],
+      "url": "https://www.youtube.com/@CodingEntrepreneurs",
+      "lastUpdated": "2025-06-14T10:27:21.265Z",
+      "addedAt": "2025-06-14T10:27:21.265Z"
+    },
+    {
+      "id": "channel_duwen",
+      "name": "Du Wen 内蒙古杜文",
+      "url": "https://www.youtube.com/@duwen2024",
+      "youtubeId": "duwen2024",
+      "subscriberCount": 185000,
+      "thumbnailUrl": "https://picsum.photos/seed/duwen/64/64",
+      "categoryId": "entertainment_gossip",
+      "customTags": [
+        "时事要闻"
+      ],
+      "description": "",
+      "lastUpdated": "2025-06-14T12:31:36.993Z",
+      "addedAt": "2025-06-14T12:31:36.993Z"
+    },
+    {
+      "id": "channel_70",
+      "youtubeId": "GrandmaCan",
+      "name": "GrandmaCan",
+      "subscriberCount": 167000,
+      "thumbnailUrl": "https://picsum.photos/seed/channel_70/64/64",
+      "description": "",
+      "categoryId": "programming",
+      "customTags": [
+        "创作灵感"
+      ],
+      "url": "https://www.youtube.com/@GrandmaCan",
+      "lastUpdated": "2025-06-14T10:27:21.266Z",
+      "addedAt": "2025-06-14T10:27:21.266Z"
+    },
+    {
+      "id": "channel_35",
+      "youtubeId": "beyondfireship",
+      "name": "beyondfireship",
+      "subscriberCount": 162000,
+      "thumbnailUrl": "https://picsum.photos/seed/channel_35/64/64",
+      "description": "",
+      "categoryId": "programming",
+      "customTags": [
+        "前端频道",
+        "优质up"
+      ],
+      "url": "https://www.youtube.com/@beyondfireship",
+      "lastUpdated": "2025-06-14T10:27:21.265Z",
+      "addedAt": "2025-06-14T10:27:21.265Z"
+    },
+    {
+      "id": "channel_1749901659746_rj1l5",
+      "youtubeId": "ServetGulnaroglu",
+      "name": "Servet Gulnaroglu",
+      "subscriberCount": 155000,
+      "thumbnailUrl": "https://picsum.photos/seed/channel_5/64/64",
+      "description": "",
+      "categoryId": "programming",
+      "customTags": [
+        "前端频道",
+        "优质前端案列"
+      ],
+      "url": "https://www.youtube.com/@ServetGulnaroglu",
+      "lastUpdated": "2025-06-14T11:47:39.746Z",
+      "addedAt": "2025-06-14T11:47:39.746Z"
+    },
+    {
+      "id": "channel_1749901659746_jdcip",
+      "youtubeId": "DailyTuition",
+      "name": "Daily Tuition",
+      "subscriberCount": 153000,
+      "thumbnailUrl": "https://picsum.photos/seed/channel_6/64/64",
+      "description": "",
+      "categoryId": "programming",
+      "customTags": [
+        "前端频道",
+        "优质前端案列"
+      ],
+      "url": "https://www.youtube.com/@DailyTuition",
+      "lastUpdated": "2025-06-14T11:47:39.746Z",
+      "addedAt": "2025-06-14T11:47:39.746Z"
+    },
+    {
+      "id": "channel_1749901638196_l0zca",
+      "youtubeId": "CreatorMagicAI",
+      "name": "Creator Magic",
+      "subscriberCount": 151000,
+      "thumbnailUrl": "https://picsum.photos/seed/CreatorMagicAI/64/64",
+      "description": "",
+      "categoryId": "ai",
+      "customTags": [
+        "AI"
+      ],
+      "url": "https://www.youtube.com/@CreatorMagicAI",
+      "lastUpdated": "2025-06-14T11:47:18.196Z",
+      "addedAt": "2025-06-14T11:47:18.196Z"
+    },
+    {
+      "id": "channel_40",
+      "youtubeId": "ClearCode",
+      "name": "Clear Code",
+      "subscriberCount": 150000,
+      "thumbnailUrl": "https://picsum.photos/seed/channel_40/64/64",
+      "description": "",
+      "categoryId": "programming",
+      "customTags": [
+        "后端频道",
+        "Python"
+      ],
+      "url": "https://www.youtube.com/@ClearCode",
+      "lastUpdated": "2025-06-14T10:27:21.265Z",
+      "addedAt": "2025-06-14T10:27:21.265Z"
+    },
+    {
+      "id": "channel_1749901638196_bqccj",
+      "youtubeId": "ColeMedin",
+      "name": "Cole Medin",
+      "subscriberCount": 133000,
+      "thumbnailUrl": "https://picsum.photos/seed/ColeMedin/64/64",
+      "description": "",
+      "categoryId": "ai",
+      "customTags": [
+        "AI"
+      ],
+      "url": "https://www.youtube.com/@ColeMedin",
+      "lastUpdated": "2025-06-14T11:47:18.196Z",
+      "addedAt": "2025-06-14T11:47:18.196Z"
+    },
+    {
+      "id": "channel_44",
+      "youtubeId": "Java",
+      "name": "Java",
+      "subscriberCount": 132000,
+      "thumbnailUrl": "https://picsum.photos/seed/channel_44/64/64",
+      "description": "",
+      "categoryId": "programming",
+      "customTags": [
+        "后端频道",
+        "Java"
+      ],
+      "url": "https://www.youtube.com/@Java",
+      "lastUpdated": "2025-06-14T10:27:21.265Z",
+      "addedAt": "2025-06-14T10:27:21.265Z"
+    },
+    {
+      "id": "channel_1749901659746_hnh6j",
+      "youtubeId": "Bedimcode",
+      "name": "Bedimcode",
+      "subscriberCount": 130000,
+      "thumbnailUrl": "https://picsum.photos/seed/channel_7/64/64",
+      "description": "",
+      "categoryId": "programming",
+      "customTags": [
+        "前端频道",
+        "优质前端案列"
+      ],
+      "url": "https://www.youtube.com/@Bedimcode",
+      "lastUpdated": "2025-06-14T11:47:39.746Z",
+      "addedAt": "2025-06-14T11:47:39.746Z"
+    },
+    {
+      "id": "channel_46",
+      "youtubeId": "Java2",
+      "name": "Java",
+      "subscriberCount": 117000,
+      "thumbnailUrl": "https://picsum.photos/seed/channel_46/64/64",
+      "description": "",
+      "categoryId": "programming",
+      "customTags": [
+        "后端频道",
+        "Java"
+      ],
+      "url": "https://www.youtube.com/@Java2",
+      "lastUpdated": "2025-06-14T10:27:21.265Z",
+      "addedAt": "2025-06-14T10:27:21.265Z"
+    },
+    {
+      "id": "channel_29",
+      "youtubeId": "schelley",
+      "name": "schelley美女小姐姐",
+      "subscriberCount": 105000,
+      "thumbnailUrl": "https://picsum.photos/seed/channel_29/64/64",
+      "description": "",
+      "categoryId": "programming",
+      "customTags": [
+        "前端频道",
+        "前端的一些想法"
+      ],
+      "url": "https://www.youtube.com/@schelley",
+      "lastUpdated": "2025-06-14T10:27:21.265Z",
+      "addedAt": "2025-06-14T10:27:21.265Z"
+    },
+    {
+      "id": "channel_45",
+      "youtubeId": "JavaGuides",
+      "name": "Java Guides",
+      "subscriberCount": 101000,
+      "thumbnailUrl": "https://picsum.photos/seed/channel_45/64/64",
+      "description": "",
+      "categoryId": "programming",
+      "customTags": [
+        "后端频道",
+        "Java"
+      ],
+      "url": "https://www.youtube.com/@JavaGuides",
+      "lastUpdated": "2025-06-14T10:27:21.265Z",
+      "addedAt": "2025-06-14T10:27:21.265Z"
+    },
+    {
+      "id": "channel_1749901659746_425k0",
+      "youtubeId": "Bedimcode2",
+      "name": "Bedimcode",
+      "subscriberCount": 86100,
+      "thumbnailUrl": "https://picsum.photos/seed/channel_8/64/64",
+      "description": "",
+      "categoryId": "programming",
+      "customTags": [
+        "前端频道",
+        "优质前端案列"
+      ],
+      "url": "https://www.youtube.com/@Bedimcode2",
+      "lastUpdated": "2025-06-14T11:47:39.746Z",
+      "addedAt": "2025-06-14T11:47:39.746Z"
+    },
+    {
+      "id": "channel_41",
+      "youtubeId": "莫烦Python",
+      "name": "莫烦Python",
+      "subscriberCount": 83000,
+      "thumbnailUrl": "https://picsum.photos/seed/channel_41/64/64",
+      "description": "",
+      "categoryId": "programming",
+      "customTags": [
+        "后端频道",
+        "Python"
+      ],
+      "url": "https://www.youtube.com/@莫烦Python",
+      "lastUpdated": "2025-06-14T10:27:21.265Z",
+      "addedAt": "2025-06-14T10:27:21.265Z"
+    },
+    {
+      "id": "channel_1749901638196_jnkdl",
+      "youtubeId": "linbintalk",
+      "name": "AI学长小林",
+      "subscriberCount": 67400,
+      "thumbnailUrl": "https://picsum.photos/seed/linbintalk/64/64",
+      "description": "",
+      "categoryId": "ai",
+      "customTags": [
+        "AI",
+        "AI工具"
+      ],
+      "url": "https://www.youtube.com/@linbintalk",
+      "lastUpdated": "2025-06-14T11:47:18.196Z",
+      "addedAt": "2025-06-14T11:47:18.196Z"
+    },
+    {
+      "id": "channel_33",
+      "youtubeId": "css技巧",
+      "name": "css技巧",
+      "subscriberCount": 64900,
+      "thumbnailUrl": "https://picsum.photos/seed/channel_33/64/64",
+      "description": "",
+      "categoryId": "programming",
+      "customTags": [
+        "前端频道",
+        "专题"
+      ],
+      "url": "https://www.youtube.com/@css技巧",
+      "lastUpdated": "2025-06-14T10:27:21.265Z",
+      "addedAt": "2025-06-14T10:27:21.265Z"
+    },
+    {
+      "id": "channel_42",
+      "youtubeId": "程序员小飞",
+      "name": "程序员小飞",
+      "subscriberCount": 63300,
+      "thumbnailUrl": "https://picsum.photos/seed/channel_42/64/64",
+      "description": "",
+      "categoryId": "programming",
+      "customTags": [
+        "后端频道",
+        "Python"
+      ],
+      "url": "https://www.youtube.com/@程序员小飞",
+      "lastUpdated": "2025-06-14T10:27:21.265Z",
+      "addedAt": "2025-06-14T10:27:21.265Z"
+    },
+    {
+      "id": "channel_redwall",
+      "name": "紅墙窄門",
+      "url": "https://www.youtube.com/@redwall8341",
+      "youtubeId": "redwall8341",
+      "subscriberCount": 62600,
+      "thumbnailUrl": "https://picsum.photos/seed/redwall/64/64",
+      "categoryId": "entertainment_gossip",
+      "customTags": [
+        "时事要闻"
+      ],
+      "description": "",
+      "lastUpdated": "2025-06-14T12:31:36.993Z",
+      "addedAt": "2025-06-14T12:31:36.993Z"
+    },
+    {
+      "id": "channel_1749901659747_v7uy4",
+      "youtubeId": "CODEWITHHOSSEIN",
+      "name": "CODE WITH HOSSEIN",
+      "subscriberCount": 60800,
+      "thumbnailUrl": "https://picsum.photos/seed/channel_9/64/64",
+      "description": "",
+      "categoryId": "programming",
+      "customTags": [
+        "前端频道",
+        "优质前端案列"
+      ],
+      "url": "https://www.youtube.com/@CODEWITHHOSSEIN",
+      "lastUpdated": "2025-06-14T11:47:39.747Z",
+      "addedAt": "2025-06-14T11:47:39.747Z"
+    },
+    {
+      "id": "channel_12",
+      "youtubeId": "Windyyoufeng",
+      "name": "Windy有风",
+      "subscriberCount": 54800,
+      "thumbnailUrl": "https://picsum.photos/seed/Windyyoufeng/64/64",
+      "description": "",
+      "categoryId": "ai",
+      "customTags": [
+        "AI",
+        "AI工具"
+      ],
+      "url": "https://www.youtube.com/@Windyyoufeng",
+      "lastUpdated": "2025-06-14T10:27:21.265Z",
+      "addedAt": "2025-06-14T10:27:21.265Z"
+    },
+    {
+      "id": "channel_1749901638196_96ary",
+      "youtubeId": "tech-shrimp",
+      "name": "技术爬爬虾",
+      "subscriberCount": 52900,
+      "thumbnailUrl": "https://picsum.photos/seed/tech-shrimp/64/64",
+      "description": "",
+      "categoryId": "ai",
+      "customTags": [
+        "AI"
+      ],
+      "url": "https://www.youtube.com/@tech-shrimp",
+      "lastUpdated": "2025-06-14T11:47:18.196Z",
+      "addedAt": "2025-06-14T11:47:18.196Z"
+    },
+    {
+      "id": "channel_1749901638196_cey95",
+      "youtubeId": "77MediaBook",
+      "name": "七七行銷筆記",
+      "subscriberCount": 47600,
+      "thumbnailUrl": "https://picsum.photos/seed/77MediaBook/64/64",
+      "description": "",
+      "categoryId": "ai",
+      "customTags": [
+        "AI"
+      ],
+      "url": "https://www.youtube.com/@77MediaBook",
+      "lastUpdated": "2025-06-14T11:47:18.196Z",
+      "addedAt": "2025-06-14T11:47:18.196Z"
+    },
+    {
+      "id": "channel_48",
+      "youtubeId": "尚硅谷",
+      "name": "尚硅谷",
+      "subscriberCount": 43900,
+      "thumbnailUrl": "https://picsum.photos/seed/channel_48/64/64",
+      "description": "",
+      "categoryId": "programming",
+      "customTags": [
+        "后端频道",
+        "Java"
+      ],
+      "url": "https://www.youtube.com/@尚硅谷",
+      "lastUpdated": "2025-06-14T10:27:21.265Z",
+      "addedAt": "2025-06-14T10:27:21.265Z"
+    },
+    {
+      "id": "channel_1749901659747_gwq5a",
+      "youtubeId": "Codeminton",
+      "name": "Codeminton",
+      "subscriberCount": 36400,
+      "thumbnailUrl": "https://picsum.photos/seed/channel_11/64/64",
+      "description": "",
+      "categoryId": "programming",
+      "customTags": [
+        "前端频道",
+        "优质前端案列"
+      ],
+      "url": "https://www.youtube.com/@Codeminton",
+      "lastUpdated": "2025-06-14T11:47:39.747Z",
+      "addedAt": "2025-06-14T11:47:39.747Z"
+    },
+    {
+      "id": "channel_1749901638196_ffny4",
+      "youtubeId": "qiuzhi2046",
+      "name": "秋芝2046",
+      "subscriberCount": 36100,
+      "thumbnailUrl": "https://picsum.photos/seed/qiuzhi2046/64/64",
+      "description": "",
+      "categoryId": "ai",
+      "customTags": [
+        "AI"
+      ],
+      "url": "https://www.youtube.com/@qiuzhi2046",
+      "lastUpdated": "2025-06-14T11:47:18.196Z",
+      "addedAt": "2025-06-14T11:47:18.196Z"
+    },
+    {
+      "id": "channel_1749901659747_ad8ln",
+      "youtubeId": "AsmrProg",
+      "name": "AsmrProg",
+      "subscriberCount": 32400,
+      "thumbnailUrl": "https://picsum.photos/seed/channel_12/64/64",
+      "description": "",
+      "categoryId": "programming",
+      "customTags": [
+        "前端频道",
+        "优质前端案列"
+      ],
+      "url": "https://www.youtube.com/@AsmrProg",
+      "lastUpdated": "2025-06-14T11:47:39.747Z",
+      "addedAt": "2025-06-14T11:47:39.747Z"
+    },
+    {
+      "id": "channel_1749901659747_sj0uf",
+      "youtubeId": "ProgHubASMR",
+      "name": "ProgHub ASMR",
+      "subscriberCount": 30800,
+      "thumbnailUrl": "https://picsum.photos/seed/channel_10/64/64",
+      "description": "",
+      "categoryId": "programming",
+      "customTags": [
+        "前端频道",
+        "优质前端案列"
+      ],
+      "url": "https://www.youtube.com/@ProgHubASMR",
+      "lastUpdated": "2025-06-14T11:47:39.747Z",
+      "addedAt": "2025-06-14T11:47:39.747Z"
+    },
+    {
+      "id": "channel_1749901638196_c7z7t",
+      "youtubeId": "AIsuperdomain",
+      "name": "ai超元域",
+      "subscriberCount": 24100,
+      "thumbnailUrl": "https://picsum.photos/seed/AIsuperdomain/64/64",
+      "description": "",
+      "categoryId": "ai",
+      "customTags": [
+        "AI"
+      ],
+      "url": "https://www.youtube.com/@AIsuperdomain",
+      "lastUpdated": "2025-06-14T11:47:18.196Z",
+      "addedAt": "2025-06-14T11:47:18.196Z"
+    },
+    {
+      "id": "channel_49",
+      "youtubeId": "千锋教育",
+      "name": "千锋教育",
+      "subscriberCount": 23600,
+      "thumbnailUrl": "https://picsum.photos/seed/channel_49/64/64",
+      "description": "",
+      "categoryId": "programming",
+      "customTags": [
+        "后端频道",
+        "Java"
+      ],
+      "url": "https://www.youtube.com/@千锋教育",
+      "lastUpdated": "2025-06-14T10:27:21.265Z",
+      "addedAt": "2025-06-14T10:27:21.265Z"
+    },
+    {
+      "id": "channel_30",
+      "youtubeId": "代码真香",
+      "name": "代码真香",
+      "subscriberCount": 20800,
+      "thumbnailUrl": "https://picsum.photos/seed/channel_30/64/64",
+      "description": "",
+      "categoryId": "programming",
+      "customTags": [
+        "前端频道",
+        "前端的一些想法"
+      ],
+      "url": "https://www.youtube.com/@代码真香",
+      "lastUpdated": "2025-06-14T10:27:21.265Z",
+      "addedAt": "2025-06-14T10:27:21.265Z"
+    },
+    {
+      "id": "channel_1749903961537",
+      "youtubeId": "UCug77unmi",
+      "name": "IT咖啡馆",
+      "subscriberCount": 19500,
+      "thumbnailUrl": "https://picsum.photos/seed/UCug77unmi/64/64",
+      "description": "这是一个示例YouTube频道描述。",
+      "categoryId": "programming",
+      "customTags": [
+        "Github",
+        "国内UP"
+      ],
+      "url": "https://www.youtube.com/@it-coffee",
+      "lastUpdated": "2025-06-14T12:26:01.537Z",
+      "addedAt": "2025-06-14T12:26:01.537Z"
+    },
+    {
+      "id": "channel_31",
+      "youtubeId": "Alex宅幹嘛",
+      "name": "Alex 宅幹嘛",
+      "subscriberCount": 15400,
+      "thumbnailUrl": "https://picsum.photos/seed/channel_31/64/64",
+      "description": "",
+      "categoryId": "programming",
+      "customTags": [
+        "前端频道",
+        "前端的一些想法"
+      ],
+      "url": "https://www.youtube.com/@Alex宅幹嘛",
+      "lastUpdated": "2025-06-14T10:27:21.265Z",
+      "addedAt": "2025-06-14T10:27:21.265Z"
+    },
+    {
+      "id": "channel_36",
+      "youtubeId": "SayyedNasarAli",
+      "name": "Sayyed Nasar Ali",
+      "subscriberCount": 11800,
+      "thumbnailUrl": "https://picsum.photos/seed/channel_36/64/64",
+      "description": "",
+      "categoryId": "programming",
+      "customTags": [
+        "前端频道",
+        "优质up"
+      ],
+      "url": "https://www.youtube.com/@SayyedNasarAli",
+      "lastUpdated": "2025-06-14T10:27:21.265Z",
+      "addedAt": "2025-06-14T10:27:21.265Z"
+    },
+    {
+      "id": "channel_37",
+      "youtubeId": "slayingthedragon",
+      "name": "slayingthedragon",
+      "subscriberCount": 11200,
+      "thumbnailUrl": "https://picsum.photos/seed/channel_37/64/64",
+      "description": "",
+      "categoryId": "programming",
+      "customTags": [
+        "前端频道",
+        "优质up"
+      ],
+      "url": "https://www.youtube.com/@slayingthedragon",
+      "lastUpdated": "2025-06-14T10:27:21.265Z",
+      "addedAt": "2025-06-14T10:27:21.265Z"
+    },
+    {
+      "id": "channel_24",
+      "youtubeId": "JomyKing",
+      "name": "Jomy King",
+      "subscriberCount": 11000,
+      "thumbnailUrl": "https://picsum.photos/seed/channel_24/64/64",
+      "description": "",
+      "categoryId": "programming",
+      "customTags": [
+        "前端频道",
+        "web前端综合知识"
+      ],
+      "url": "https://www.youtube.com/@JomyKing",
+      "lastUpdated": "2025-06-14T10:27:21.265Z",
+      "addedAt": "2025-06-14T10:27:21.265Z"
+    },
+    {
+      "id": "channel_13",
+      "youtubeId": "zhuhaofunAI",
+      "name": "Zhu的AI日记",
+      "subscriberCount": 7960,
+      "thumbnailUrl": "https://picsum.photos/seed/zhuhaofunAI/64/64",
+      "description": "",
+      "categoryId": "ai",
+      "customTags": [
+        "AI",
+        "AI工具"
+      ],
+      "url": "https://www.youtube.com/@zhuhaofunAI",
+      "lastUpdated": "2025-06-14T10:27:21.265Z",
+      "addedAt": "2025-06-14T10:27:21.265Z"
+    },
+    {
+      "id": "channel_1749901638196_4b1lz",
+      "youtubeId": "bywind1990",
+      "name": "程序员御风",
+      "subscriberCount": 7490,
+      "thumbnailUrl": "https://picsum.photos/seed/bywind1990/64/64",
+      "description": "",
+      "categoryId": "ai",
+      "customTags": [
+        "AI"
+      ],
+      "url": "https://www.youtube.com/@bywind1990",
+      "lastUpdated": "2025-06-14T11:47:18.196Z",
+      "addedAt": "2025-06-14T11:47:18.196Z"
+    },
+    {
+      "id": "channel_1749903896267",
+      "youtubeId": "UCfx5esst1",
+      "name": "不正经的前端",
+      "subscriberCount": 5200,
+      "thumbnailUrl": "https://picsum.photos/seed/UCfx5esst1/64/64",
+      "description": "这是一个示例YouTube频道描述。",
+      "categoryId": "programming",
+      "customTags": [
+        "前端，国内UP"
+      ],
+      "url": "https://www.youtube.com/@isboyjc",
+      "lastUpdated": "2025-06-14T12:24:56.267Z",
+      "addedAt": "2025-06-14T12:24:56.267Z"
+    },
+    {
+      "id": "channel_50",
+      "youtubeId": "黑马程序员",
+      "name": "黑马程序员",
+      "subscriberCount": 3960,
+      "thumbnailUrl": "https://picsum.photos/seed/channel_50/64/64",
+      "description": "",
+      "categoryId": "programming",
+      "customTags": [
+        "后端频道",
+        "Java"
+      ],
+      "url": "https://www.youtube.com/@黑马程序员",
+      "lastUpdated": "2025-06-14T10:27:21.265Z",
+      "addedAt": "2025-06-14T10:27:21.265Z"
+    },
+    {
+      "id": "channel_1749904952996",
+      "youtubeId": "UCv3ig2pvz",
+      "name": "薇羽看世間",
+      "subscriberCount": 462000,
+      "thumbnailUrl": "https://picsum.photos/seed/UCv3ig2pvz/64/64",
+      "description": "这是一个示例YouTube频道描述。",
+      "categoryId": "entertainment_gossip",
+      "customTags": [
+        "新闻",
+        "咨询"
+      ],
+      "url": "https://www.youtube.com/@weiyuksj",
+      "lastUpdated": "2025-06-14T12:42:32.996Z",
+      "addedAt": "2025-06-14T12:42:32.996Z"
+    },
+    {
+      "id": "channel_passion4profession",
+      "name": "WORKOUTS",
+      "url": "https://www.youtube.com/@Passion4Profession",
+      "youtubeId": "Passion4Profession",
+      "subscriberCount": 2540000,
+      "thumbnailUrl": "https://picsum.photos/seed/workouts/64/64",
+      "categoryId": "fitness_health",
+      "customTags": [
+        "健身"
+      ],
+      "description": "",
+      "lastUpdated": "2025-06-14T12:54:31.959Z",
+      "addedAt": "2025-06-14T12:54:31.959Z"
+    },
+    {
+      "id": "channel_shuai",
+      "name": "shuaisoserious",
+      "url": "https://www.youtube.com/@shuaisoserious",
+      "youtubeId": "shuaisoserious",
+      "subscriberCount": 1500000,
+      "thumbnailUrl": "https://picsum.photos/seed/shuai/64/64",
+      "categoryId": "fitness_health",
+      "customTags": [
+        "健身"
+      ],
+      "description": "",
+      "lastUpdated": "2025-06-14T12:54:31.960Z",
+      "addedAt": "2025-06-14T12:54:31.960Z"
+    },
+    {
+      "id": "channel_cult",
+      "name": "wearecult",
+      "url": "https://www.youtube.com/@cult.official",
+      "youtubeId": "cult.official",
+      "subscriberCount": 2200000,
+      "thumbnailUrl": "https://picsum.photos/seed/cult/64/64",
+      "categoryId": "fitness_health",
+      "customTags": [
+        "健身"
+      ],
+      "description": "",
+      "lastUpdated": "2025-06-14T12:54:31.960Z",
+      "addedAt": "2025-06-14T12:54:31.960Z"
+    },
+    {
+      "id": "channel_athleanx",
+      "name": "ATHLEAN-X",
+      "url": "https://www.youtube.com/@athleanx",
+      "youtubeId": "athleanx",
+      "subscriberCount": 14100000,
+      "thumbnailUrl": "https://picsum.photos/seed/athleanx/64/64",
+      "categoryId": "fitness_health",
+      "customTags": [
+        "健身"
+      ],
+      "description": "",
+      "lastUpdated": "2025-06-14T12:54:31.960Z",
+      "addedAt": "2025-06-14T12:54:31.960Z"
+    },
+    {
+      "id": "channel_jeffnippard",
+      "name": "Jeff Nippard",
+      "url": "https://www.youtube.com/@JeffNippard",
+      "youtubeId": "JeffNippard",
+      "subscriberCount": 7100000,
+      "thumbnailUrl": "https://picsum.photos/seed/jeffnippard/64/64",
+      "categoryId": "fitness_health",
+      "customTags": [
+        "健身"
+      ],
+      "description": "",
+      "lastUpdated": "2025-06-14T12:54:31.960Z",
+      "addedAt": "2025-06-14T12:54:31.960Z"
+    },
+    {
+      "id": "channel_simeonpanda",
+      "name": "西蒙·熊猫",
+      "url": "https://www.youtube.com/@SimeonPanda",
+      "youtubeId": "SimeonPanda",
+      "subscriberCount": 2780000,
+      "thumbnailUrl": "https://picsum.photos/seed/simeonpanda/64/64",
+      "categoryId": "fitness_health",
+      "customTags": [
+        "健身"
+      ],
+      "description": "",
+      "lastUpdated": "2025-06-14T12:54:31.960Z",
+      "addedAt": "2025-06-14T12:54:31.960Z"
+    },
+    {
+      "id": "channel_jeremyethier",
+      "name": "Jeremy Ethier",
+      "url": "https://www.youtube.com/@JeremyEthier",
+      "youtubeId": "JeremyEthier",
+      "subscriberCount": 7180000,
+      "thumbnailUrl": "https://picsum.photos/seed/jeremyethier/64/64",
+      "categoryId": "fitness_health",
+      "customTags": [
+        "健身"
+      ],
+      "description": "",
+      "lastUpdated": "2025-06-14T12:54:31.960Z",
+      "addedAt": "2025-06-14T12:54:31.960Z"
+    },
+    {
+      "id": "channel_zengbaoying",
+      "name": "曾寶瑩博士",
+      "url": "https://www.youtube.com/@ssatisfycenter",
+      "youtubeId": "ssatisfycenter",
+      "subscriberCount": 76900,
+      "thumbnailUrl": "https://picsum.photos/seed/zengbaoying/64/64",
+      "categoryId": "fitness_health",
+      "customTags": [
+        "性功能"
+      ],
+      "description": "",
+      "lastUpdated": "2025-06-14T12:54:31.960Z",
+      "addedAt": "2025-06-14T12:54:31.960Z"
+    },
+    {
+      "id": "channel_chengweiming",
+      "name": "程威銘",
+      "url": "https://www.youtube.com/@DrDKK",
+      "youtubeId": "DrDKK",
+      "subscriberCount": 301000,
+      "thumbnailUrl": "https://picsum.photos/seed/drdkk/64/64",
+      "categoryId": "fitness_health",
+      "customTags": [
+        "性功能"
+      ],
+      "description": "",
+      "lastUpdated": "2025-06-14T12:54:31.960Z",
+      "addedAt": "2025-06-14T12:54:31.960Z"
+    },
+    {
+      "id": "channel_songfu",
+      "name": "嵩馥性健康",
+      "url": "https://www.youtube.com/@sungful6",
+      "youtubeId": "sungful6",
+      "subscriberCount": 352000,
+      "thumbnailUrl": "https://picsum.photos/seed/songfu/64/64",
+      "categoryId": "fitness_health",
+      "customTags": [
+        "性功能"
+      ],
+      "description": "",
+      "lastUpdated": "2025-06-14T12:54:31.960Z",
+      "addedAt": "2025-06-14T12:54:31.960Z"
+    }
+  ]
+}

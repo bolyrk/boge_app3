@@ -1,0 +1,212 @@
+{
+  "categories": [
+    {
+      "id": "ai",
+      "name": "AI",
+      "order": 1
+    }
+  ],
+  "channels": [
+    {
+      "id": "channel_8",
+      "youtubeId": "applemei",
+      "name": "苹果妹",
+      "subscriberCount": 614000,
+      "thumbnailUrl": "https://picsum.photos/seed/applemei/64/64",
+      "description": "",
+      "categoryId": "ai",
+      "customTags": [
+        "AI",
+        "AI工具"
+      ],
+      "url": "https://www.youtube.com/@applemei",
+      "lastUpdated": "2025-06-14T10:27:21.265Z",
+      "addedAt": "2025-06-14T10:27:21.265Z"
+    },
+    {
+      "id": "channel_1",
+      "youtubeId": "CreatorMagicAI",
+      "name": "Creator Magic",
+      "subscriberCount": 151000,
+      "thumbnailUrl": "https://picsum.photos/seed/CreatorMagicAI/64/64",
+      "description": "",
+      "categoryId": "ai",
+      "customTags": [
+        "AI"
+      ],
+      "url": "https://www.youtube.com/@CreatorMagicAI",
+      "lastUpdated": "2025-06-14T10:27:21.265Z",
+      "addedAt": "2025-06-14T10:27:21.265Z"
+    },
+    {
+      "id": "channel_2",
+      "youtubeId": "ColeMedin",
+      "name": "Cole Medin",
+      "subscriberCount": 133000,
+      "thumbnailUrl": "https://picsum.photos/seed/ColeMedin/64/64",
+      "description": "",
+      "categoryId": "ai",
+      "customTags": [
+        "AI"
+      ],
+      "url": "https://www.youtube.com/@ColeMedin",
+      "lastUpdated": "2025-06-14T10:27:21.265Z",
+      "addedAt": "2025-06-14T10:27:21.265Z"
+    },
+    {
+      "id": "channel_9",
+      "youtubeId": "Tan_Dongdong",
+      "name": "檀东东·Tango",
+      "subscriberCount": 230000,
+      "thumbnailUrl": "https://picsum.photos/seed/Tan_Dongdong/64/64",
+      "description": "",
+      "categoryId": "ai",
+      "customTags": [
+        "AI",
+        "AI工具"
+      ],
+      "url": "https://www.youtube.com/@Tan_Dongdong",
+      "lastUpdated": "2025-06-14T10:27:21.265Z",
+      "addedAt": "2025-06-14T10:27:21.265Z"
+    },
+    {
+      "id": "channel_10",
+      "youtubeId": "lyi",
+      "name": "林亦LYi",
+      "subscriberCount": 226000,
+      "thumbnailUrl": "https://picsum.photos/seed/lyi/64/64",
+      "description": "",
+      "categoryId": "ai",
+      "customTags": [
+        "AI",
+        "AI工具"
+      ],
+      "url": "https://www.youtube.com/@lyi",
+      "lastUpdated": "2025-06-14T10:27:21.265Z",
+      "addedAt": "2025-06-14T10:27:21.265Z"
+    },
+    {
+      "id": "channel_3",
+      "youtubeId": "tech-shrimp",
+      "name": "技术爬爬虾",
+      "subscriberCount": 52900,
+      "thumbnailUrl": "https://picsum.photos/seed/tech-shrimp/64/64",
+      "description": "",
+      "categoryId": "ai",
+      "customTags": [
+        "AI"
+      ],
+      "url": "https://www.youtube.com/@tech-shrimp",
+      "lastUpdated": "2025-06-14T10:27:21.265Z",
+      "addedAt": "2025-06-14T10:27:21.265Z"
+    },
+    {
+      "id": "channel_4",
+      "youtubeId": "77MediaBook",
+      "name": "七七行銷筆記",
+      "subscriberCount": 47600,
+      "thumbnailUrl": "https://picsum.photos/seed/77MediaBook/64/64",
+      "description": "",
+      "categoryId": "ai",
+      "customTags": [
+        "AI"
+      ],
+      "url": "https://www.youtube.com/@77MediaBook",
+      "lastUpdated": "2025-06-14T10:27:21.265Z",
+      "addedAt": "2025-06-14T10:27:21.265Z"
+    },
+    {
+      "id": "channel_5",
+      "youtubeId": "qiuzhi2046",
+      "name": "秋芝2046",
+      "subscriberCount": 36100,
+      "thumbnailUrl": "https://picsum.photos/seed/qiuzhi2046/64/64",
+      "description": "",
+      "categoryId": "ai",
+      "customTags": [
+        "AI"
+      ],
+      "url": "https://www.youtube.com/@qiuzhi2046",
+      "lastUpdated": "2025-06-14T10:27:21.265Z",
+      "addedAt": "2025-06-14T10:27:21.265Z"
+    },
+    {
+      "id": "channel_6",
+      "youtubeId": "AIsuperdomain",
+      "name": "ai超元域",
+      "subscriberCount": 24100,
+      "thumbnailUrl": "https://picsum.photos/seed/AIsuperdomain/64/64",
+      "description": "",
+      "categoryId": "ai",
+      "customTags": [
+        "AI"
+      ],
+      "url": "https://www.youtube.com/@AIsuperdomain",
+      "lastUpdated": "2025-06-14T10:27:21.265Z",
+      "addedAt": "2025-06-14T10:27:21.265Z"
+    },
+    {
+      "id": "channel_11",
+      "youtubeId": "linbintalk",
+      "name": "AI学长小林",
+      "subscriberCount": 67400,
+      "thumbnailUrl": "https://picsum.photos/seed/linbintalk/64/64",
+      "description": "",
+      "categoryId": "ai",
+      "customTags": [
+        "AI",
+        "AI工具"
+      ],
+      "url": "https://www.youtube.com/@linbintalk",
+      "lastUpdated": "2025-06-14T10:27:21.265Z",
+      "addedAt": "2025-06-14T10:27:21.265Z"
+    },
+    {
+      "id": "channel_12",
+      "youtubeId": "Windyyoufeng",
+      "name": "Windy有风",
+      "subscriberCount": 54800,
+      "thumbnailUrl": "https://picsum.photos/seed/Windyyoufeng/64/64",
+      "description": "",
+      "categoryId": "ai",
+      "customTags": [
+        "AI",
+        "AI工具"
+      ],
+      "url": "https://www.youtube.com/@Windyyoufeng",
+      "lastUpdated": "2025-06-14T10:27:21.265Z",
+      "addedAt": "2025-06-14T10:27:21.265Z"
+    },
+    {
+      "id": "channel_7",
+      "youtubeId": "bywind1990",
+      "name": "程序员御风",
+      "subscriberCount": 7490,
+      "thumbnailUrl": "https://picsum.photos/seed/bywind1990/64/64",
+      "description": "",
+      "categoryId": "ai",
+      "customTags": [
+        "AI"
+      ],
+      "url": "https://www.youtube.com/@bywind1990",
+      "lastUpdated": "2025-06-14T10:27:21.265Z",
+      "addedAt": "2025-06-14T10:27:21.265Z"
+    },
+    {
+      "id": "channel_13",
+      "youtubeId": "zhuhaofunAI",
+      "name": "Zhu的AI日记",
+      "subscriberCount": 7960,
+      "thumbnailUrl": "https://picsum.photos/seed/zhuhaofunAI/64/64",
+      "description": "",
+      "categoryId": "ai",
+      "customTags": [
+        "AI",
+        "AI工具"
+      ],
+      "url": "https://www.youtube.com/@zhuhaofunAI",
+      "lastUpdated": "2025-06-14T10:27:21.265Z",
+      "addedAt": "2025-06-14T10:27:21.265Z"
+    }
+  ]
+}

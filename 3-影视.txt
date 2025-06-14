@@ -1,0 +1,176 @@
+{
+  "categories": [
+    {
+      "id": "entertainment",
+      "name": "影视",
+      "order": 1
+    }
+  ],
+  "channels": [
+    {
+      "id": "channel_1",
+      "youtubeId": "MangoTVDramaOfficial",
+      "name": "芒果TV青春剧场",
+      "subscriberCount": 4740000,
+      "thumbnailUrl": "https://picsum.photos/seed/MangoTVDramaOfficial/64/64",
+      "description": "",
+      "categoryId": "entertainment",
+      "customTags": [
+        "电影"
+      ],
+      "url": "https://www.youtube.com/@MangoTVDramaOfficial",
+      "lastUpdated": "2025-06-14T10:27:21.265Z",
+      "addedAt": "2025-06-14T10:27:21.265Z"
+    },
+    {
+      "id": "channel_2",
+      "youtubeId": "BabyBusTC",
+      "name": "寶寶巴士",
+      "subscriberCount": 3550000,
+      "thumbnailUrl": "https://picsum.photos/seed/BabyBusTC/64/64",
+      "description": "",
+      "categoryId": "entertainment",
+      "customTags": [
+        "动漫"
+      ],
+      "url": "https://www.youtube.com/@BabyBusTC",
+      "lastUpdated": "2025-06-14T10:27:21.265Z",
+      "addedAt": "2025-06-14T10:27:21.265Z"
+    },
+    {
+      "id": "channel_3",
+      "youtubeId": "Body-if7hc1yk8u",
+      "name": "特战行动",
+      "subscriberCount": 3590000,
+      "thumbnailUrl": "https://picsum.photos/seed/Body-if7hc1yk8u/64/64",
+      "description": "",
+      "categoryId": "entertainment",
+      "customTags": [
+        "电影"
+      ],
+      "url": "https://www.youtube.com/@Body-if7hc1yk8u",
+      "lastUpdated": "2025-06-14T10:27:21.265Z",
+      "addedAt": "2025-06-14T10:27:21.265Z"
+    },
+    {
+      "id": "channel_4",
+      "youtubeId": "ShengshiDrama",
+      "name": "盛世短剧",
+      "subscriberCount": 2270000,
+      "thumbnailUrl": "https://picsum.photos/seed/ShengshiDrama/64/64",
+      "description": "",
+      "categoryId": "entertainment",
+      "customTags": [
+        "短剧"
+      ],
+      "url": "https://www.youtube.com/@ShengshiDrama",
+      "lastUpdated": "2025-06-14T10:27:21.265Z",
+      "addedAt": "2025-06-14T10:27:21.265Z"
+    },
+    {
+      "id": "channel_5",
+      "youtubeId": "youkumovie",
+      "name": "优酷电影",
+      "subscriberCount": 1000000,
+      "thumbnailUrl": "https://picsum.photos/seed/youkumovie/64/64",
+      "description": "",
+      "categoryId": "entertainment",
+      "customTags": [
+        "电影"
+      ],
+      "url": "https://www.youtube.com/@youkumovie",
+      "lastUpdated": "2025-06-14T10:27:21.265Z",
+      "addedAt": "2025-06-14T10:27:21.265Z"
+    },
+    {
+      "id": "channel_6",
+      "youtubeId": "youkuanimation",
+      "name": "优酷动漫",
+      "subscriberCount": 1170000,
+      "thumbnailUrl": "https://picsum.photos/seed/youkuanimation/64/64",
+      "description": "",
+      "categoryId": "entertainment",
+      "customTags": [
+        "动漫"
+      ],
+      "url": "https://www.youtube.com/@youkuanimation",
+      "lastUpdated": "2025-06-14T10:27:21.265Z",
+      "addedAt": "2025-06-14T10:27:21.265Z"
+    },
+    {
+      "id": "channel_7",
+      "youtubeId": "ChineseAnimation",
+      "name": "动漫魔女",
+      "subscriberCount": 816000,
+      "thumbnailUrl": "https://picsum.photos/seed/ChineseAnimation/64/64",
+      "description": "",
+      "categoryId": "entertainment",
+      "customTags": [
+        "动漫"
+      ],
+      "url": "https://www.youtube.com/@ChineseAnimation",
+      "lastUpdated": "2025-06-14T10:27:21.265Z",
+      "addedAt": "2025-06-14T10:27:21.265Z"
+    },
+    {
+      "id": "channel_8",
+      "youtubeId": "LittleFoxChinese",
+      "name": "Little Fox 中文",
+      "subscriberCount": 691000,
+      "thumbnailUrl": "https://picsum.photos/seed/LittleFoxChinese/64/64",
+      "description": "",
+      "categoryId": "entertainment",
+      "customTags": [
+        "动漫"
+      ],
+      "url": "https://www.youtube.com/@LittleFoxChinese",
+      "lastUpdated": "2025-06-14T10:27:21.265Z",
+      "addedAt": "2025-06-14T10:27:21.265Z"
+    },
+    {
+      "id": "channel_9",
+      "youtubeId": "XiashanDrama",
+      "name": "下山追短剧",
+      "subscriberCount": 491000,
+      "thumbnailUrl": "https://picsum.photos/seed/XiashanDrama/64/64",
+      "description": "",
+      "categoryId": "entertainment",
+      "customTags": [
+        "短剧"
+      ],
+      "url": "https://www.youtube.com/@XiashanDrama",
+      "lastUpdated": "2025-06-14T10:27:21.265Z",
+      "addedAt": "2025-06-14T10:27:21.265Z"
+    },
+    {
+      "id": "channel_10",
+      "youtubeId": "漫推男孩",
+      "name": "漫推男孩",
+      "subscriberCount": 382000,
+      "thumbnailUrl": "https://picsum.photos/seed/漫推男孩/64/64",
+      "description": "",
+      "categoryId": "entertainment",
+      "customTags": [
+        "动漫"
+      ],
+      "url": "https://www.youtube.com/@%E6%BC%AB%E6%8E%A8%E7%94%B7%E5%AD%A9",
+      "lastUpdated": "2025-06-14T10:27:21.265Z",
+      "addedAt": "2025-06-14T10:27:21.265Z"
+    },
+    {
+      "id": "channel_11",
+      "youtubeId": "热血动漫社",
+      "name": "热血动漫社",
+      "subscriberCount": 300000,
+      "thumbnailUrl": "https://picsum.photos/seed/热血动漫社/64/64",
+      "description": "",
+      "categoryId": "entertainment",
+      "customTags": [
+        "动漫"
+      ],
+      "url": "https://www.youtube.com/@%E7%83%AD%E8%A1%80%E5%8A%A8%E6%BC%AB%E7%A4%BE",
+      "lastUpdated": "2025-06-14T10:27:21.265Z",
+      "addedAt": "2025-06-14T10:27:21.265Z"
+    }
+  ]
+}
