@@ -209,6 +209,26 @@ body {
     border: 1px solid rgba(56, 189, 248, 0.3);
 }
 
+/* 鼠标悬停时文字颜色变化效果 */
+.channel-card:hover .channel-name {
+    color: var(--accent-color);
+    text-shadow: 0 0 8px rgba(56, 189, 248, 0.5);
+    transition: all 0.3s ease;
+}
+
+.channel-card:hover .channel-subscribers {
+    color: rgba(56, 189, 248, 0.8);
+    transition: all 0.3s ease;
+}
+
+.channel-card:hover .channel-tag {
+    background-color: rgba(56, 189, 248, 0.3);
+    color: #ffffff;
+    border-color: rgba(56, 189, 248, 0.6);
+    box-shadow: 0 0 8px rgba(56, 189, 248, 0.3);
+    transition: all 0.3s ease;
+}
+
 .channel-avatar {
     width: 100%;
     display: flex;
@@ -244,6 +264,20 @@ body {
     border: 2px solid rgba(56, 189, 248, 0.3);
     position: relative;
     z-index: 2;
+    transition: all 0.3s ease, transform 0.5s ease-out;
+    will-change: transform; /* 优化性能 */
+    backface-visibility: hidden; /* 减少闪烁 */
+    -webkit-backface-visibility: hidden;
+}
+
+/* 鼠标悬停时激活头像旋转 */
+.channel-card:hover .channel-avatar img {
+    box-shadow: 0 0 25px 5px rgba(56, 189, 248, 0.6);
+    border: 2px solid rgba(56, 189, 248, 0.7);
+    animation: rotate-clockwise 6s linear infinite;
+    -webkit-animation: rotate-clockwise 6s linear infinite;
+    transform-origin: center center;
+    -webkit-transform-origin: center center;
 }
 
 /* 添加光圈旋转动画效果 */
@@ -299,11 +333,12 @@ body {
 }
 
 /* 图片发光效果 */
-.channel-card:hover .channel-avatar img {
+/* 图片发光效果 - 移除之前的重复定义 */
+/*.channel-card:hover .channel-avatar img {
     box-shadow: 0 0 25px 5px rgba(56, 189, 248, 0.6);
     border: 2px solid rgba(56, 189, 248, 0.7);
     transition: all 0.3s ease;
-}
+}*/
 
 @keyframes fade-in {
     from {
@@ -379,12 +414,14 @@ body {
     overflow: hidden;
     text-overflow: ellipsis;
     color: white;
+    transition: all 0.3s ease;
 }
 
 .channel-subscribers {
     color: var(--text-light);
     font-size: 0.9rem;
     margin-bottom: 10px;
+    transition: all 0.3s ease;
 }
 
 .channel-tags {
@@ -402,6 +439,7 @@ body {
     font-size: 0.8rem;
     display: inline-block;
     border: 1px solid rgba(56, 189, 248, 0.3);
+    transition: all 0.3s ease;
 }
 
 .channel-actions {
@@ -1110,5 +1148,25 @@ textarea[readonly] {
     }
     100% {
         filter: drop-shadow(0 0 5px rgba(255, 215, 0, 0.7));
+    }
+}
+
+/* Channel avatar rotation effect */
+@keyframes rotate-clockwise {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* 兼容不同浏览器的动画前缀 */
+@-webkit-keyframes rotate-clockwise {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
     }
 } 
