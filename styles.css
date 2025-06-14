@@ -1169,4 +1169,61 @@ textarea[readonly] {
     to {
         -webkit-transform: rotate(360deg);
     }
+}
+
+/* 全站排名皇冠特殊样式 */
+.rank-badge.global-rank .crown {
+    /* 添加发光效果使其更突出 */
+    filter: drop-shadow(0 0 5px rgba(56, 189, 248, 0.8));
+    transition: all 0.3s ease;
+}
+
+.rank-badge.global-rank::after {
+    content: '';
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(56, 189, 248, 0.2) 30%, rgba(56, 189, 248, 0) 70%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+/* 各个排名的全站特殊效果 */
+.rank-1.global-rank .crown {
+    color: #ffd700;
+    filter: drop-shadow(0 0 8px rgba(255, 215, 0, 0.8));
+}
+
+.rank-2.global-rank .crown {
+    color: #c0c0c0;
+    filter: drop-shadow(0 0 6px rgba(192, 192, 192, 0.8));
+}
+
+.rank-3.global-rank .crown {
+    color: #cd7f32;
+    filter: drop-shadow(0 0 6px rgba(205, 127, 50, 0.8));
+}
+
+/* 鼠标悬停时全站排名皇冠的特殊效果 */
+.channel-card:hover .rank-badge.global-rank .crown {
+    transform: scale(1.2);
+}
+
+.channel-card:hover .rank-1.global-rank .crown {
+    animation: pulse-global-gold 2s infinite;
+}
+
+@keyframes pulse-global-gold {
+    0% {
+        filter: drop-shadow(0 0 8px rgba(255, 215, 0, 0.8));
+    }
+    50% {
+        filter: drop-shadow(0 0 12px rgba(255, 215, 0, 1));
+    }
+    100% {
+        filter: drop-shadow(0 0 8px rgba(255, 215, 0, 0.8));
+    }
 } 

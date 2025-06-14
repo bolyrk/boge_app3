@@ -292,14 +292,11 @@ function renderChannels() {
     if (appData.currentCategoryId === 'all') {
         elements.currentCategoryName.textContent = '全部频道';
         
-        // 在"全部频道"视图中，计算每个分类中前5名频道
-        const rankedChannels = calculateTopChannelsPerCategory();
-        
-        // 标记分类中的前5名频道
-        filteredChannels = filteredChannels.map(channel => {
-            const rankInfo = rankedChannels.find(rc => rc.channelId === channel.id);
-            if (rankInfo) {
-                return { ...channel, rank: rankInfo.rank, categoryRank: true };
+        // 在"全部频道"视图中，只给整体排名前5的频道添加排名
+        filteredChannels = filteredChannels.map((channel, index) => {
+            // 只有前5名才添加排名
+            if (index < 5) {
+                return { ...channel, rank: index + 1, categoryRank: false };
             }
             return channel;
         });
@@ -307,9 +304,9 @@ function renderChannels() {
         const category = appData.categories.find(cat => cat.id === appData.currentCategoryId);
         elements.currentCategoryName.textContent = category ? category.name : '未知分类';
         
-        // 为当前分类的前5名频道添加排名
+        // 在分类视图下，为当前分类的前5名频道添加排名
         filteredChannels = filteredChannels.map((channel, index) => {
-            return index < 5 ? { ...channel, rank: index + 1 } : channel;
+            return index < 5 ? { ...channel, rank: index + 1, categoryRank: true } : channel;
         });
     }
     
@@ -336,36 +333,6 @@ function renderChannels() {
     elements.channelGrid.appendChild(fragment);
 }
 
-// 计算每个分类中排名前5的频道
-function calculateTopChannelsPerCategory() {
-    const rankedChannels = [];
-    
-    // 处理每个分类
-    appData.categories.forEach(category => {
-        // 获取该分类的所有频道
-        const categoryChannels = appData.channels.filter(channel => channel.categoryId === category.id);
-        
-        // 按订阅数排序
-        categoryChannels.sort((a, b) => {
-            const countA = a.subscriberCount || 0;
-            const countB = b.subscriberCount || 0;
-            return countB - countA;
-        });
-        
-        // 取前5名并添加到结果数组
-        categoryChannels.slice(0, 5).forEach((channel, index) => {
-            rankedChannels.push({
-                channelId: channel.id,
-                categoryId: category.id,
-                categoryName: category.name,
-                rank: index + 1
-            });
-        });
-    });
-    
-    return rankedChannels;
-}
-
 // Create a channel card element
 function createChannelCard(channel) {
     const card = document.createElement('div');
@@ -385,11 +352,31 @@ function createChannelCard(channel) {
         tagsHtml += '</div>';
     }
     
+    // 如果频道有排名，添加皇冠图标
+    let rankBadgeHtml = '';
+    if (channel.rank && channel.rank >= 1 && channel.rank <= 5) {
+        const rankClass = `rank-${channel.rank}`;
+        const categoryLabel = channel.categoryRank ? 
+            `${appData.categories.find(cat => cat.id === channel.categoryId)?.name || ''}分类第${channel.rank}名` : 
+            `全站排名第${channel.rank}名`;
+            
+        // 为全站排名添加额外的样式
+        const globalRankClass = !channel.categoryRank ? ' global-rank' : '';
+        
+        rankBadgeHtml = `
+            <div class="rank-badge ${rankClass}${globalRankClass}" title="${categoryLabel}">
+                <i class="fas fa-crown crown"></i>
+                <span class="rank-number">${channel.rank}</span>
+            </div>
+        `;
+    }
+    
     card.innerHTML = `
         <div class="channel-avatar">
             <img src="${channel.thumbnailUrl || 'https://via.placeholder.com/64'}" alt="${channel.name}">
             <div class="orbit-effect"></div>
         </div>
+        ${rankBadgeHtml}
         <div class="channel-info">
             <h3 class="channel-name">${channel.name}</h3>
             <div class="channel-subscribers">${formattedSubscribers} 位订阅者</div>
@@ -1324,9 +1311,6 @@ window.clearSearch = clearSearch;
 function renderSearchResults(query) {
     const fragment = document.createDocumentFragment();
     
-    // 计算每个分类中前5名频道
-    const rankedChannels = calculateTopChannelsPerCategory();
-    
     // 执行搜索，查找名称或标签匹配的频道
     let results = appData.channels.filter(channel => {
         // 检查频道名称
@@ -1340,11 +1324,17 @@ function renderSearchResults(query) {
         return nameMatch || tagMatch;
     });
     
-    // 为搜索结果添加排名信息
-    results = results.map(channel => {
-        const rankInfo = rankedChannels.find(rc => rc.channelId === channel.id);
-        if (rankInfo) {
-            return { ...channel, rank: rankInfo.rank, categoryRank: true };
+    // 按订阅数排序
+    results.sort((a, b) => {
+        const countA = a.subscriberCount || 0;
+        const countB = b.subscriberCount || 0;
+        return countB - countA; // 从高到低排序
+    });
+    
+    // 为搜索结果中的前5名添加排名
+    results = results.map((channel, index) => {
+        if (index < 5) {
+            return { ...channel, rank: index + 1, categoryRank: false };
         }
         return channel;
     });
@@ -1411,10 +1401,13 @@ function createChannelCard(channel, searchQuery = '') {
         const rankClass = `rank-${channel.rank}`;
         const categoryLabel = channel.categoryRank ? 
             `${appData.categories.find(cat => cat.id === channel.categoryId)?.name || ''}分类第${channel.rank}名` : 
-            `第${channel.rank}名`;
+            `全站排名第${channel.rank}名`;
             
+        // 为全站排名添加额外的样式
+        const globalRankClass = !channel.categoryRank ? ' global-rank' : '';
+        
         rankBadgeHtml = `
-            <div class="rank-badge ${rankClass}" title="${categoryLabel}">
+            <div class="rank-badge ${rankClass}${globalRankClass}" title="${categoryLabel}">
                 <i class="fas fa-crown crown"></i>
                 <span class="rank-number">${channel.rank}</span>
             </div>
