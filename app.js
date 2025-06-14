@@ -38,6 +38,7 @@ const elements = {
     clearDataBtn: document.getElementById('clearDataBtn'),
     importDataBtn: document.getElementById('importDataBtn'),
     exportDataBtn: document.getElementById('exportDataBtn'),
+    getDataBtn: document.getElementById('getDataBtn'),
     importModal: document.getElementById('importModal'),
     exportModal: document.getElementById('exportModal'),
     importBtn: document.getElementById('importBtn'),
@@ -123,6 +124,13 @@ function setupEventListeners() {
     // Export data button
     elements.exportDataBtn.addEventListener('click', () => {
         openExportModal();
+    });
+    
+    // 获取数据按钮
+    elements.getDataBtn.addEventListener('click', () => {
+        const dataSourceUrl = "https://www.yuque.com/u41844714/bdwv2d/zkcfzb3sy91z24r7?singleDocwww.google.com.hk";
+        window.open(dataSourceUrl, '_blank');
+        showNotification('正在跳转到数据源页面...', 'success');
     });
 
     // 搜索按钮和输入框事件

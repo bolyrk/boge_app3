@@ -64,7 +64,7 @@ body {
     gap: 8px;
 }
 
-.btn-import, .btn-export {
+.btn-import, .btn-export, .btn-get-data {
     background-color: rgba(33, 150, 243, 0.2);
     color: white;
     border: 1px solid rgba(33, 150, 243, 0.3);
@@ -79,9 +79,20 @@ body {
     transition: all 0.3s ease;
 }
 
-.btn-import:hover, .btn-export:hover {
+.btn-import:hover, .btn-export:hover, .btn-get-data:hover {
     background-color: rgba(33, 150, 243, 0.4);
     box-shadow: 0 0 15px rgba(33, 150, 243, 0.5);
+}
+
+/* 获取数据按钮特殊样式 */
+.btn-get-data {
+    background-color: rgba(76, 175, 80, 0.2);
+    border: 1px solid rgba(76, 175, 80, 0.3);
+}
+
+.btn-get-data:hover {
+    background-color: rgba(76, 175, 80, 0.4);
+    box-shadow: 0 0 15px rgba(76, 175, 80, 0.5);
 }
 
 .category-list {
